@@ -1,0 +1,8 @@
+#content{
+    width:1200PX;
+    height: 400px;
+    background: red;
+}
+.header-left{
+    float: left;
+}
