@@ -1,8 +1,12 @@
 #content{
-    width:1200PX;
     margin: 0 auto;
+    width: 1300px;
+}
+.header{
+    height: 85px;
 }
 .header-left{
+    padding-left: 100px;
     float: left;
 }
 .header-right-ul li{
