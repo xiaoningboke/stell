@@ -35,3 +35,6 @@
     padding-right: 100px;
     float: right;
 }
+a:hover{
+    text-decoration:none !important;
+}

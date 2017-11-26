@@ -37,6 +37,10 @@
 	font-size: 16px;
 	padding: 0 10px;
 }
+.main-xianhuo{
+	width: 1200px;
+	margin: 0 auto;
+}
 .main-xianhuo-top{
 	width: 1200px;
 	height: 40px;
@@ -67,5 +71,115 @@
 	text-decoration:none;
 }
 .main-xianhuo-top ul{
-	list-style-image: url(../img/gzdt_li.png);
+	list-style: url("../img/gzdt_li.png") outside circle;
+}
+.main-xianhuo-buttm{
+	border-top-color: rgb(64, 150, 238);
+	border-top-style: solid;
+	border-top-width: 2px;
+}
+.main-xb-left-top{
+	height: 30px;
+	line-height: 30px;
+}
+.main-gdxhkc{
+	float: right;
+}
+.main-xianhuo-buttm span{
+	font-size: 20px;
+	font-weight: 400;
+	margin: 10px 0 5px 15px;
+}
+.main-gdxhkc a{
+	color: rgb(102, 102, 102);
+	font-family: "Microsoft YaHei", Arial, sans-serif;
+
+}
+.main-gdxhkc a:hover{
+	color:rgb(64, 150, 238) ;
+
+}
+.main-xb-left{
+	width: 906px;
+	height: 280px;
+}
+.main-center{
+	height: 350px;
+}
+.biaoge{
+	
+}
+.main-xb-left{
+	float: left;
+}
+.main-lxfs{
+	float: left;
+	height: 280px;
+	margin-left: 5px;
+}
+.main-lxfs-title{
+	width: 270px;
+	color: blue;
+	padding-left: 10px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom-color: rgb(239, 239, 239);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	font-family: Tahoma, Arial, "微软雅黑", sans-serif;
+	font-feature-settings: normal;
+	font-kerning: auto;
+	font-language-override: normal;
+	font-size: 20px;
+}
+.main-lxfs-ct{
+	border-bottom-color: rgb(239, 239, 239);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.main-lxfs-ct{
+	font-size: 16px;
+	padding:18px 15px;
+}
+.main-lxfs-b{
+	float: left;
+	width: 50px;
+	color: blue;
+}
+
+
+
+#demo{
+    padding-top: 20px;
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+.a1,.a1:hover{
+	color: #000000;
+	font-size: 16px;
+}
+.a1 img{
+	padding-right: 30px;
+    width:280px;
+    height: 209px;
+}
+
+.main-cpzh-title{
+	border-left-color: rgb(231, 35, 36);
+	border-left-style: solid;
+	border-left-width: 4px;
+	color: rgb(51, 51, 51);
+	padding-left: 15px;
+	font-family: Tahoma, Arial, "微软雅黑", sans-serif;
+	font-feature-settings: normal;
+	font-kerning: auto;
+	font-language-override: normal;
+	font-size: 22px;
+}
+
+.main-cpzh{
+	width: 1200px;
+	margin: 0 auto;
 }
