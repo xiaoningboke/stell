@@ -1,0 +1,18 @@
+[ 2017-12-03T11:53:55+08:00 ] ::1 /stell/__public__/index/img/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:__public__
+
+[ 2017-12-03T12:07:35+08:00 ] ::1 /stell/U('Admin/User/select')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+ERR: 无法加载模块:U('Admin
+
+[ 2017-12-03T12:11:08+08:00 ] ::1 /stell/index.php?m=Stock&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Stock
+
