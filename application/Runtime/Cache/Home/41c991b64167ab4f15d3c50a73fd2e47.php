@@ -50,8 +50,50 @@
             </div>
 
             <div class="main">
-            	<div class=""></div>
-            	<div></div>
+            	<div class="main-datu">
+            		<img src="/stell/Public/stock/img/taili.gif">
+            	</div>
+            	<div class="main-sousuo">
+            		<form class="layui-form"> 
+	            			<div class="main-sousuo-bottom">
+	            				<span>材质</span>
+								<div class="layui-input-inline">
+							        <select name="modules" lay-verify="required" lay-search="">
+							          <option value="">请输入或选择材质</option>
+							          <option value="1">layer</option>
+							          <option value="2">form</option>
+							          <option value="3">layim</option>
+							          <option value="4">element</option>
+							          <option value="5">laytpl</option>
+							          <option value="6">upload</option>
+							          <option value="7">laydate</option>
+							          <option value="8">laypage</option>
+							          <option value="9">flow</option>
+							          <option value="10">util</option>
+							          <option value="11">code</option>
+							          <option value="12">tree</option>
+							          <option value="13">layedit</option>
+							          <option value="14">nav</option>
+							          <option value="15">tab</option>
+							          <option value="16">table</option>
+							          <option value="17">select</option>
+							          <option value="18">checkbox</option>
+							          <option value="19">switch</option>
+							          <option value="20">radio</option>
+							        </select>
+							      </div>
+							      <span>规格</span>
+							        <div class="layui-input-inline">
+                                    <input type="text" name="title" required  lay-verify="required" placeholder="请输入外径" autocomplete="off" class="layui-input">
+                                </div>
+							       <span>X</span>
+							        <div class="layui-input-inline" style="margin-right: 20px">
+                                    <input type="text" name="title" required  lay-verify="required" placeholder="请输入壁厚" autocomplete="off" class="layui-input">
+                                </div>
+                                 <button class="layui-btn layui-btn-danger">立即搜索</button>
+	            			</div>
+						</form>
+            	</div>
             	<div></div>
             <div class="footer">
 	<div class="footer-top">

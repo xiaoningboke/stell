@@ -1,1 +1,9 @@
-index.css
+.main-datu{
+	height: 135px;
+	width: 1100px;
+	margin:0 auto;
+}
+.main-datu img{
+	height: 135px;
+	width: 1100px;
+}
