@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="/stell/Public/head.css">
     <link rel="stylesheet" type="text/css" href="/stell/Public/footer.css">
     <link rel="stylesheet" type="text/css" href="/stell/Public/chushihua.css">
- 
+    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+
 
 
 
@@ -27,7 +28,7 @@
                             <i>/</i>
                         </li>
                         <li>
-                            <a href="U('Admin/User/select')">现货查询</a>
+                            <a href="#">现货查询</a>
                             <i>/</i>
                         </li>
                         <li>
