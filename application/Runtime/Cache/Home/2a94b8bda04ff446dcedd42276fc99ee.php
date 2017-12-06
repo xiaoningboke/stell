@@ -14,6 +14,7 @@
 
         <link rel="stylesheet" href="/stell/Public/index/css/index.css">
         <link rel="stylesheet" href="/stell/Public/layui/css/layui.css">
+        <script type="text/javascript" src="/stell/Public/index/js/biaogegundong.js"></script>
         </head>
         <body>
         <div id="content">
@@ -114,81 +115,36 @@
             					<div class="main-gdxhkc"><a href="#">更多现货库存<i class="layui-icon">&#xe602;</i> </a> </div>
             				</div>
             				<div>
-            					 <table class="layui-table" style="font-size: 14px;">
-							      <colgroup>
-							        <col width="150">
-							        <col>
-							      </colgroup>
-							      <thead>
-							        <tr style="color: #000000">
-							          <th>品种</th>
-							          <th>材质</th>
-							          <th>规格</th>
-							          <th>重量</th>
-							          <th>价格</th>
-							          <th>联系方式</th>
-							          <th>仓库区</th>
-							          <th>更新时间</th>
-							        </tr>
-							      </thead>
-							      <tbody class="biaoge">
-							        <tr>
-							          <td>流体管</td>
-							          <td>20#</td>
-							          <td>4×1</td>
-							          <td>1.5</td>
-							          <td>15</td>
-							          <td>17866666666</td>
-							          <td>聊城金昊</td>
-							          <td>2016-11-28</td>
+            					<table class="table" align="center">
+                                                                    <thead class="fixedThead" align="center">
+                                                                    <tr>
+                                                                    <th>品种</th>
+                                                                    <th>材质</th>
+                                                                    <th>规格</th>
+                                                                    <th>钢厂</th>
+                                                                    <th>重量/数量</th>
+                                                                    <th>供应商</th>
+                                                                    <th>联系方式</th>
+                                                                    <th>仓库区</th>
 
-							        </tr>
-							        <tr>
-							          <td>流体管</td>
-							          <td>20#</td>
-							          <td>4×1</td>
-							          <td>1.5</td>
-							          <td>15</td>
-							          <td>17866666666</td>
-							          <td>聊城金昊</td>
-							          <td>2016-11-28</td>
-
-							        </tr>
-							        <tr>
-							          <td>流体管</td>
-							          <td>20#</td>
-							          <td>4×1</td>
-							          <td>1.5</td>
-							          <td>15</td>
-							          <td>17866666666</td>
-							          <td>聊城金昊</td>
-							          <td>2016-11-28</td>
-
-							        </tr>
-							        <tr>
-							          <td>流体管</td>
-							          <td>20#</td>
-							          <td>4×1</td>
-							          <td>1.5</td>
-							          <td>15</td>
-							          <td>17866666666</td>
-							          <td>聊城金昊</td>
-							          <td>2016-11-28</td>
-
-							        </tr>
-							        <tr>
-							          <td>流体管</td>
-							          <td>20#</td>
-							          <td>4×1</td>
-							          <td>1.5</td>
-							          <td>15</td>
-							          <td>17866666666</td>
-							          <td>聊城金昊</td>
-							          <td>2016-11-28</td>
-
-							        </tr>
-							      </tbody>
-							    </table>
+                                                                    </tr>
+                                                                    </thead>
+                                                                        <?php if(is_array($goodsDate)): foreach($goodsDate as $key=>$vo): ?><!-- <?php echo "<tr>" ?>
+                                                                            <?php echo ($vo["varieties"]); ?>
+                                                                        <?php echo "</tr>"; ?> --><?php endforeach; endif; ?>
+                                                                    <tbody  id="test" class="scrollTbody" align="center">
+                                                                      <?php if(is_array($goodsDate)): foreach($goodsDate as $key=>$vo): ?><tr>
+                                                                            <td><?php echo ($vo["varieties"]); ?></td>
+                                                                            <td><?php echo ($vo["material"]); ?></td>
+                                                                            <td><?php echo ($vo["specifications"]); ?></td>
+                                                                            <td><?php echo ($vo["field"]); ?></td>
+                                                                            <td><?php echo ($vo["weight"]); ?></td>
+                                                                            <td><?php echo ($vo["price"]); ?></td>
+                                                                            <td><?php echo ($vo["contact"]); ?></td>
+                                                                            <td><?php echo ($vo["warehouse"]); ?></td>
+                                                                        </tr><?php endforeach; endif; ?>
+                                                                    </tbody>
+                                                                    </table>
 
             				</div>
             			</div>
@@ -199,16 +155,16 @@
             		<div class="main-lxfs-title">联系方式</div>
             		<div class="main-lxfs-con">
             			<div class="main-lxfs-ct">
-            				<div class="main-lxfs-b">手机：</div>18888888888
+            				<div class="main-lxfs-b">手机：</div><?php echo ($contentDate["phone"]); ?>
             			</div>
             			<div class="main-lxfs-ct">
-            				<div class="main-lxfs-b">QQ:</div>8888888888
+            				<div class="main-lxfs-b">QQ:</div><?php echo ($contentDate["qq"]); ?>
             			</div>
             			<div class="main-lxfs-ct">
-            				<div class="main-lxfs-b">微信：</div>18888888888
+            				<div class="main-lxfs-b">微信：</div><?php echo ($contentDate["wetch"]); ?>
             			</div>
             			<div class="main-lxfs-ct">
-            				<div class="main-lxfs-b">地址：</div>聊城市东昌府区
+            				<div class="main-lxfs-b">地址：</div><?php echo ($contentDate["address"]); ?>
             			</div>
             		</div>
             	</div>

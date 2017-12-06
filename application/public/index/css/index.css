@@ -1,6 +1,6 @@
 .main{
-	
-	
+
+
 }
 .main-top{
 	width: 100%;
@@ -107,7 +107,7 @@
 	height: 350px;
 }
 .biaoge{
-	
+
 }
 .main-xb-left{
 	float: left;
@@ -183,3 +183,44 @@
 	width: 1200px;
 	margin: 0 auto;
 }
+
+
+
+.table{
+         width: 100%;
+         left:30%;
+         border-collapse:collapse;
+         border-spacing:0;
+     }
+     .fixedThead{
+         display: block;
+         width: 100%;
+     }
+     .scrollTbody{
+         display: block;
+         height: 316px;
+         overflow: hidden;
+         width: 100%;
+     }
+     .table td {
+         width: 300px;
+         border-bottom: #333 1px dashed;
+         padding: 5px;
+         background-color:#ddd;
+     }
+     .table th {
+         width: 300px;
+         border-bottom: #333 1px dashed;
+         border-top: #333 1px dashed;
+         padding: 5px;
+         line-height:24px;
+         background-color:#cfc;
+     }
+     .table tr{
+         border-bottom: #333 1px dashed;
+         line-height:24px;
+         padding: 5px;
+     }
+     thead.fixedThead tr th:last-child {
+         color:#FF0000;
+     }

@@ -10,3 +10,6 @@ var speed1=25//速度数值越大速度越慢
   var MyMar1=setInterval(Marquee1,speed1)
   document.getElementById("demo").onmouseover=function () {clearInterval(MyMar1)}
   document.getElementById("demo").onmouseout=function () {MyMar1=setInterval(Marquee1,speed1)}
+
+
+
