@@ -7,3 +7,15 @@
 	height: 135px;
 	width: 1100px;
 }
+.main-sousuo{
+    margin: 20px;
+    text-align: center;
+}
+.bmyx{
+    color: red;
+    margin: 20px;
+}
+.layui-form{
+    margin: 0 auto;
+    width: 1100px;
+}

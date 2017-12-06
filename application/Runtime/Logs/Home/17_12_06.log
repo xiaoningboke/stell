@@ -1,0 +1,149 @@
+[ 2017-12-06T10:27:24+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.085804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.086075s ]
+
+[ 2017-12-06T10:27:58+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+
+[ 2017-12-06T10:29:25+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002470s ]
+ERR: 1146:Table 'goods.index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `index`
+ERR: 1146:Table 'goods.index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `index`
+
+[ 2017-12-06T10:30:46+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003341s ]
+ERR: 1146:Table 'goods.index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `index`
+ERR: 1146:Table 'goods.index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `index`
+
+[ 2017-12-06T10:31:10+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003151s ]
+SQL: SHOW COLUMNS FROM `index` [ RunTime:0.0853s ]
+ERR: Think\Model:se方法不存在！
+
+[ 2017-12-06T10:33:38+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003127s ]
+
+[ 2017-12-06T10:33:55+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008175s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0753s ]
+ERR: Think\Model:se方法不存在！
+
+[ 2017-12-06T10:34:14+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006271s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0714s ]
+ERR: 1146:Table 'goods.goods_stock' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `goods_stock`
+ERR: 1146:Table 'goods.goods_stock' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `goods_stock`
+
+[ 2017-12-06T10:34:31+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0725s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.571623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.571881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.045812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.073372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.074180s ]
+
+[ 2017-12-06T10:37:49+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011264s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0609s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `goods` LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004660s ]
+
+[ 2017-12-06T10:38:11+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0659s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006822s ]
+

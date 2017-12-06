@@ -1,0 +1,43 @@
+[ 2017-12-04T14:00:22+08:00 ] ::1 /stell/index.php/public/index/img/jrtitle.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-12-04T14:00:22+08:00 ] ::1 /stell/index.php/public/index/img/cpzh/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-12-04T14:00:22+08:00 ] ::1 /stell/index.php/public/index/img/cpzh/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-12-04T14:00:22+08:00 ] ::1 /stell/index.php/public/index/img/cpzh/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-12-04T14:00:22+08:00 ] ::1 /stell/index.php/public/index/img/cpzh/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-12-04T14:00:22+08:00 ] ::1 /stell/index.php/public/index/js/seamless.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003710s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-04T14:05:23+08:00 ] ::1 /stell/index.php/public/index/js/seamless.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006398s ]
+ERR: 无法加载控制器:Index
+

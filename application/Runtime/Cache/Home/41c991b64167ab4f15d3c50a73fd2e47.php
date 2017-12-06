@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title><?php echo ($title); ?></title>
     <link rel="stylesheet" type="text/css" href="/stell/Public/head.css">
     <link rel="stylesheet" type="text/css" href="/stell/Public/footer.css">
     <link rel="stylesheet" type="text/css" href="/stell/Public/chushihua.css">
@@ -54,10 +54,10 @@
             		<img src="/stell/Public/stock/img/taili.gif">
             	</div>
             	<div class="main-sousuo">
-            		<form class="layui-form"> 
+            		<form class="layui-form">
 	            			<div class="main-sousuo-bottom">
 	            				<span>材质</span>
-								<div class="layui-input-inline">
+							<div class="layui-input-inline">
 							        <select name="modules" lay-verify="required" lay-search="">
 							          <option value="">请输入或选择材质</option>
 							          <option value="1">layer</option>
@@ -92,9 +92,89 @@
                                 </div>
                                  <button class="layui-btn layui-btn-danger">立即搜索</button>
 	            			</div>
-						</form>
+		</form>
+                        <div class="bmyx">因版面有限，未列规格请电询，非标尺规格可加工定做</div>
             	</div>
-            	<div></div>
+            	<div class="layui-form">
+                   <table class="layui-table">
+                        <colgroup>
+                          <col width="150">
+                          <col width="150">
+                          <col width="200">
+                          <col>
+                        </colgroup>
+                        <thead>
+                          <tr>
+                            <th>品种</th>
+                            <th>材质</th>
+                            <th>规格</th>
+                            <th>钢厂</th>
+                            <th>重量/数量</th>
+                            <th>供应商</th>
+                            <th>联系方式</th>
+                            <th>仓库区</th>
+                            <th>更新时间</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>无缝钢管</td>
+                            <td>20#3087</td>
+                            <td>22*4</td>
+                            <td>天津308</td>
+                            <td>8.884</td>
+                            <td>聊城俊杰</td>
+                            <td>16666666666</td>
+                            <td>聊城</td>
+                            <td>1小时前</td>
+                          </tr>
+                          <tr>
+                            <td>无缝钢管</td>
+                            <td>20#3087</td>
+                            <td>22*4</td>
+                            <td>天津308</td>
+                            <td>8.884</td>
+                            <td>聊城俊杰</td>
+                            <td>16666666666</td>
+                            <td>聊城</td>
+                            <td>1小时前</td>
+                          </tr>
+                          <tr>
+                            <td>无缝钢管</td>
+                            <td>20#3087</td>
+                            <td>22*4</td>
+                            <td>天津308</td>
+                            <td>8.884</td>
+                            <td>聊城俊杰</td>
+                            <td>16666666666</td>
+                            <td>聊城</td>
+                            <td>1小时前</td>
+                          </tr>
+                         <tr>
+                            <td>无缝钢管</td>
+                            <td>20#3087</td>
+                            <td>22*4</td>
+                            <td>天津308</td>
+                            <td>8.884</td>
+                            <td>聊城俊杰</td>
+                            <td>16666666666</td>
+                            <td>聊城</td>
+                            <td>1小时前</td>
+                          </tr>
+                         <tr>
+                            <td>无缝钢管</td>
+                            <td>20#3087</td>
+                            <td>22*4</td>
+                            <td>天津308</td>
+                            <td>8.884</td>
+                            <td>聊城俊杰</td>
+                            <td>16666666666</td>
+                            <td>聊城</td>
+                            <td>1小时前</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
             <div class="footer">
 	<div class="footer-top">
 		<ul class="w1180">
@@ -156,7 +236,7 @@
 		  ,layer = layui.layer
 		  ,layedit = layui.layedit
 		  ,laydate = layui.laydate;
-		  
+
 		  //日期
 		  laydate.render({
 		    elem: '#date'
@@ -164,10 +244,10 @@
 		  laydate.render({
 		    elem: '#date1'
 		  });
-		  
+
 		  //创建一个编辑器
 		  var editIndex = layedit.build('LAY_demo_editor');
-		 
+
 		  //自定义验证规则
 		  form.verify({
 		    title: function(value){
@@ -180,7 +260,7 @@
 		      layedit.sync(editIndex);
 		    }
 		  });
-		  
+
 		  //监听指定开关
 		  form.on('switch(switchTest)', function(data){
 		    layer.msg('开关checked：'+ (this.checked ? 'true' : 'false'), {
@@ -188,7 +268,7 @@
 		    });
 		    layer.tips('温馨提示：请注意开关状态的文字可以随意定义，而不仅仅是ON|OFF', data.othis)
 		  });
-		  
+
 		  //监听提交
 		  form.on('submit(demo1)', function(data){
 		    layer.alert(JSON.stringify(data.field), {
@@ -196,10 +276,10 @@
 		    })
 		    return false;
 		  });
-		  
-		  
+
+
 		});
 		</script>
-		
+
 </body>
 </html>
