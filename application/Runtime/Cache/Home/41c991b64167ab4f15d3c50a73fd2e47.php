@@ -60,26 +60,7 @@
 							<div class="layui-input-inline">
 							        <select name="modules" lay-verify="required" lay-search="">
 							          <option value="">请输入或选择材质</option>
-							          <option value="1">layer</option>
-							          <option value="2">form</option>
-							          <option value="3">layim</option>
-							          <option value="4">element</option>
-							          <option value="5">laytpl</option>
-							          <option value="6">upload</option>
-							          <option value="7">laydate</option>
-							          <option value="8">laypage</option>
-							          <option value="9">flow</option>
-							          <option value="10">util</option>
-							          <option value="11">code</option>
-							          <option value="12">tree</option>
-							          <option value="13">layedit</option>
-							          <option value="14">nav</option>
-							          <option value="15">tab</option>
-							          <option value="16">table</option>
-							          <option value="17">select</option>
-							          <option value="18">checkbox</option>
-							          <option value="19">switch</option>
-							          <option value="20">radio</option>
+                                                                                            <?php if(is_array($materData)): foreach($materData as $key=>$vo): ?><option value="<?php echo ($key); ?>"><?php echo ($vo); ?></option><?php endforeach; endif; ?>
 							        </select>
 							      </div>
 							      <span>规格</span>
@@ -100,7 +81,7 @@
                         <colgroup>
                           <col width="150">
                           <col width="150">
-                          <col width="200">
+                          <col width="150">
                           <col>
                         </colgroup>
                         <thead>
@@ -117,63 +98,20 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <td>无缝钢管</td>
-                            <td>20#3087</td>
-                            <td>22*4</td>
-                            <td>天津308</td>
-                            <td>8.884</td>
-                            <td>聊城俊杰</td>
-                            <td>16666666666</td>
-                            <td>聊城</td>
-                            <td>1小时前</td>
-                          </tr>
-                          <tr>
-                            <td>无缝钢管</td>
-                            <td>20#3087</td>
-                            <td>22*4</td>
-                            <td>天津308</td>
-                            <td>8.884</td>
-                            <td>聊城俊杰</td>
-                            <td>16666666666</td>
-                            <td>聊城</td>
-                            <td>1小时前</td>
-                          </tr>
-                          <tr>
-                            <td>无缝钢管</td>
-                            <td>20#3087</td>
-                            <td>22*4</td>
-                            <td>天津308</td>
-                            <td>8.884</td>
-                            <td>聊城俊杰</td>
-                            <td>16666666666</td>
-                            <td>聊城</td>
-                            <td>1小时前</td>
-                          </tr>
-                         <tr>
-                            <td>无缝钢管</td>
-                            <td>20#3087</td>
-                            <td>22*4</td>
-                            <td>天津308</td>
-                            <td>8.884</td>
-                            <td>聊城俊杰</td>
-                            <td>16666666666</td>
-                            <td>聊城</td>
-                            <td>1小时前</td>
-                          </tr>
-                         <tr>
-                            <td>无缝钢管</td>
-                            <td>20#3087</td>
-                            <td>22*4</td>
-                            <td>天津308</td>
-                            <td>8.884</td>
-                            <td>聊城俊杰</td>
-                            <td>16666666666</td>
-                            <td>聊城</td>
-                            <td>1小时前</td>
-                          </tr>
+                        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+                            <td><?php echo ($vo["varieties"]); ?></td>
+                            <td><?php echo ($vo["material"]); ?></td>
+                            <td><?php echo ($vo["specifications"]); ?></td>
+                            <td><?php echo ($vo["field"]); ?></td>
+                             <td><?php echo ($vo["weight"]); ?></td>
+                             <td><?php echo ($vo["supplier"]); ?></td>
+                            <td><?php echo ($vo["contact"]); ?></td>
+                            <td><?php echo ($vo["warehouse"]); ?></td>
+                            <td><?php echo ($vo["time"]); ?></td>
+                          </tr><?php endforeach; endif; ?>
                         </tbody>
                       </table>
+                      <div class="result page"><?php echo ($page); ?></div>
                 </div>
             <div class="footer">
 	<div class="footer-top">

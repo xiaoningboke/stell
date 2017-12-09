@@ -11,11 +11,14 @@ class IndexController extends Controller {
         $user=new GoodsModel();
         $goodsDate=$user->resGoods();
         $contentDate = $user->content();
-        //var_dump($contentDate);
+        $materialDate = $user->resMaterial();
+        $materData = $user->resMaterial();
           $this->assign('title',"首页");
           $this->assign('goodsDate',$goodsDate);
-
+          $this->assign('materData',$materData);
           $this->assign('contentDate',$contentDate);
+          $this->assign('materData',$materData);
          $this->display();
+
     }
 }
