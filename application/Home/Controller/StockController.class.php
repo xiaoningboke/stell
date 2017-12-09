@@ -11,14 +11,19 @@ class StockController extends Controller {
         $materData=$user->resMaterial();
         $goodsDate=$user->resGoods();
          $this->assign('title',"找现货");
-         $this->assign('goodsDate',$goodsDate);
          $this->assign('materData',$materData);
 
+
         $User = M('Goods');
-        $list = $User->order('id')->page($_GET['p'].',10')->select();
+        if($_GET['p']==NULL){
+            $p=1;
+        }else{
+            $p=$_GET['p'];
+        }
+        $list = $User->order('id')->page($p.',20')->select();
         $this->assign('list',$list);
         $count = $User->count();
-        $Page = new \Think\Page($count,10);
+        $Page = new \Think\Page($count,20);
         $show = $Page->show();
         $this->assign('page',$show);
         $this->display();
