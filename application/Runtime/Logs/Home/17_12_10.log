@@ -1,0 +1,1900 @@
+[ 2017-12-10T18:50:36+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.089349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.089581s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1278s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0953s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.567105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.567344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.055551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.077342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.077583s ]
+
+[ 2017-12-10T18:50:48+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0681s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0278s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 18 行.
+NOTIC: [8] Undefined index: limit C:\phpStudy\WWW\stell\thinkphp\Library\Think\Db\Driver.class.php 第 961 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004549s ]
+
+[ 2017-12-10T18:50:55+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004991s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0802s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0489s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 10,10   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002924s ]
+
+[ 2017-12-10T18:50:58+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0722s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0290s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 20,10   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002587s ]
+
+[ 2017-12-10T18:51:01+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0642s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0289s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2017-12-10T18:54:00+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007984s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0705s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0285s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 18 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004543s ]
+
+[ 2017-12-10T18:54:06+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003543s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0837s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0376s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 20,20   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009690s ]
+
+[ 2017-12-10T18:54:07+08:00 ] ::1 /stell/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000390s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003264s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0809s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004003s ]
+
+[ 2017-12-10T18:54:09+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0586s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0632s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002959s ]
+
+[ 2017-12-10T19:02:58+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003227s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1889s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0674s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+ERR: 1054:Unknown column 'type' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( type=1 AND status=1 ) ORDER BY id LIMIT 0,20  
+ERR: 1054:Unknown column 'type' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( type=1 AND status=1 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:03:45+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006829s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0646s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0254s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+ERR: 1054:Unknown column 'specifications1' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications=specifications1 AND specifications=specifications2 ) ORDER BY id LIMIT 0,20  
+ERR: 1054:Unknown column 'specifications1' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications=specifications1 AND specifications=specifications2 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:04:14+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007332s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0841s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0250s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0019s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003344s ]
+
+[ 2017-12-10T19:04:21+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002435s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0634s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0255s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002466s ]
+
+[ 2017-12-10T19:11:32+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005233s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0845s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0276s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==11*111 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications==11*111 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==11*111 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications==11*111 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:12:28+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003178s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0998s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0367s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==1.21米*1.01米 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications==1.21米*1.01米 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==1.21米*1.01米 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications==1.21米*1.01米 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:13:05+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0601s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0238s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==1.21米1.01米 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications==1.21米1.01米 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==1.21米1.01米 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications==1.21米1.01米 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:13:49+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003022s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0667s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0328s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.175881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004993s ]
+
+[ 2017-12-10T19:14:16+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0617s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0293s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004439s ]
+
+[ 2017-12-10T19:14:34+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002369s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0786s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0634s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008879s ]
+
+[ 2017-12-10T19:14:55+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003523s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0689s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0326s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003976s ]
+
+[ 2017-12-10T19:14:59+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003407s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0616s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0256s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004616s ]
+
+[ 2017-12-10T19:15:11+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0638s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0255s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002480s ]
+
+[ 2017-12-10T19:15:19+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/U('Home/Stock/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003653s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0993s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0299s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000566s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000966s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002957s ]
+
+[ 2017-12-10T19:15:33+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/U('Home/Stock/U('Home/Stock/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002116s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1325s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0357s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002600s ]
+
+[ 2017-12-10T19:16:18+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/U('Home/Stock/U('Home/Stock/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002901s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0672s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0303s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006868s ]
+
+[ 2017-12-10T19:16:28+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/U('Home/Stock/add')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1069s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0641s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2017-12-10T19:16:49+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003493s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0672s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0240s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002752s ]
+
+[ 2017-12-10T19:16:52+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/%7BU('Home/Stock/index')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0594s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0262s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002910s ]
+
+[ 2017-12-10T19:17:11+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005593s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0823s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0259s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002509s ]
+
+[ 2017-12-10T19:17:16+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004118s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0691s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0270s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2017-12-10T19:17:21+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0573s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0254s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:18:02+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0631s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0270s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==11 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==11 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==11 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==11 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:18:25+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006131s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0720s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0253s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:19:12+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0688s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0278s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:20:25+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0574s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0323s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:20:35+08:00 ] ::1 /stell/index.php/Home/Stock/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005256s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0741s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0291s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 20,20   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.596986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.597205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.068822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.069000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.082785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.083243s ]
+
+[ 2017-12-10T19:20:41+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004234s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0671s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0265s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#308 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#308 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#308 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#308 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:21:12+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006305s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0752s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0269s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==0 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==0 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:23:39+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.098909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099159s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1346s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0542s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.281803s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.282045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.093268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.093508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030677s ]
+
+[ 2017-12-10T19:23:55+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0653s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0278s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002928s ]
+
+[ 2017-12-10T19:23:59+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0821s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0307s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+ERR: 模板不存在:./Application/Home/View/Stock/resgoods.html
+
+[ 2017-12-10T19:25:00+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0271s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2017-12-10T19:25:49+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0654s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0260s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000485s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008663s ]
+
+[ 2017-12-10T19:25:55+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006137s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0776s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0265s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#3087 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#3087 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#3087 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#3087 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:29:20+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004669s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0655s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0260s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#3087 AND material==
+20#3087 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#3087 AND material==
+20#3087 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#3087 AND material==
+20#3087 ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#3087 AND material==
+20#3087 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:29:36+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005828s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0652s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0244s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '20#3087 ) ORDER BY id LIMIT 0,20' at line 3
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 AND material=
+20#3087 ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '20#3087 ) ORDER BY id LIMIT 0,20' at line 3
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 AND material=
+20#3087 ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:30:08+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006945s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0671s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0250s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 AND specifications== ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 AND specifications== ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:30:38+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0652s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0258s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 AND specifications== ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 AND specifications== ) 
+
+[ 2017-12-10T19:30:50+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005706s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0602s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0247s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0016s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087  ) 
+
+[ 2017-12-10T19:31:32+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002812s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0747s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0336s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 ) 
+
+[ 2017-12-10T19:31:56+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003224s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0751s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0254s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material= ) 
+
+[ 2017-12-10T19:32:43+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0661s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0257s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 ) 
+
+[ 2017-12-10T19:33:44+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002962s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0765s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0252s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008076s ]
+
+[ 2017-12-10T19:34:42+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0859s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0314s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0019s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 ) 
+
+[ 2017-12-10T19:35:40+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002330s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1037s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0285s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material=
+20#3087 ) 
+
+[ 2017-12-10T19:36:01+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+
+[ 2017-12-10T19:36:53+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+
+[ 2017-12-10T19:39:13+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0641s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0264s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications== ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications== ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:39:29+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003330s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0805s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0254s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications== ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( specifications== ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:40:07+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007470s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0675s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0283s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003322s ]
+
+[ 2017-12-10T19:40:18+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009277s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0574s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0250s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 53 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#308 AND specifications== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#308 AND specifications== ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#308 AND specifications== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#308 AND specifications== ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:40:55+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007205s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0671s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0257s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003262s ]
+
+[ 2017-12-10T19:41:03+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004863s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0269s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#308 AND specifications== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#308 AND specifications== ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#308 AND specifications== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#308 AND specifications== ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:41:17+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009267s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0607s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0238s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005445s ]
+
+[ 2017-12-10T19:41:23+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003046s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0649s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0269s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== AND specifications== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material== AND specifications== ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== AND specifications== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material== AND specifications== ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:41:46+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0641s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0253s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#3087 AND specifications== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#3087 AND specifications== ) ORDER BY id LIMIT 0,20  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#3087 AND specifications== ) ORDER BY id LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#3087 AND specifications== ) ORDER BY id LIMIT 0,20  
+
+[ 2017-12-10T19:43:42+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003824s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0652s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0297s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#3087 AND specifications== )' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#3087 AND specifications== ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==
+20#3087 AND specifications== )' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( material==
+20#3087 AND specifications== ) 
+
+[ 2017-12-10T19:44:43+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000970s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0942s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0291s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 67 行.
+SQL: SELECT * FROM `goods` WHERE ( material )  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000891s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.142490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002951s ]
+
+[ 2017-12-10T19:44:52+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009106s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0745s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0532s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0021s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 67 行.
+SQL: SELECT * FROM `goods` WHERE ( material )  [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005008s ]
+
+[ 2017-12-10T19:45:11+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006508s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0727s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0260s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 67 行.
+SQL: SELECT * FROM `goods` WHERE ( material )  [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000554s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000742s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003250s ]
+
+[ 2017-12-10T21:50:16+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.073670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.073890s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1382s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0975s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001564s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001851s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.554476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.554730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.049411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.063492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.063718s ]
+
+[ 2017-12-10T21:50:26+08:00 ] ::1 /stell/index.php/Home/Stock/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0635s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0257s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Undefined index: specifications1 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 16 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Undefined index: specifications2 C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: material C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 24 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,20   [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000828s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005107s ]
+
+[ 2017-12-10T21:50:31+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0637s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0254s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 67 行.
+SQL: SELECT * FROM `goods` WHERE ( material )  [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002473s ]
+
+[ 2017-12-10T21:50:43+08:00 ] ::1 /stell/index.php/Home/Stock/resgoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003523s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0540s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0262s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant specifications1 - assumed 'specifications1' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 45 行.
+NOTIC: [8] Use of undefined constant specifications2 - assumed 'specifications2' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 48 行.
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant material - assumed 'material' C:\phpStudy\WWW\stell\application\Home\Controller\StockController.class.php 第 67 行.
+SQL: SELECT * FROM `goods` WHERE ( material )  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004960s ]
+

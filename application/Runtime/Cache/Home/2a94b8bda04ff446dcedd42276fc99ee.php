@@ -58,22 +58,22 @@
             			<button class="layui-btn layui-btn-warm" style="">找现货</button>
             		</div> -->
             		<div>
-            			<form class="layui-form">
+            			<form class="layui-form" method="post" action="<?php echo U('Home/Stock/resgoods');?>">
 	            			<div class="main-sousuo-bottom">
 	            				<span>材质</span>
 								<div class="layui-input-inline">
-							        <select name="modules" lay-verify="required" lay-search="">
+							        <select name="material" lay-verify="required" lay-search="">
 							          <option value="">请输入或选择材质</option>
-                                                                                             <?php if(is_array($materData)): foreach($materData as $key=>$vo): ?><option value="<?php echo ($key); ?>"><?php echo ($vo); ?></option><?php endforeach; endif; ?>
+                                                                                             <?php if(is_array($materData)): foreach($materData as $key=>$vo): ?><option value="<?php echo ($vo); ?>"><?php echo ($vo); ?></option><?php endforeach; endif; ?>
 							        </select>
 							      </div>
 							      <span>规格</span>
 							        <div class="layui-input-inline">
-                                    <input type="text" name="title" required  lay-verify="required" placeholder="请输入外径" autocomplete="off" class="layui-input">
+                                    <input type="text" name="specifications1"   lay-verify="required" placeholder="请输入外径" autocomplete="off" class="layui-input">
                                 </div>
 							       <span>X</span>
 							        <div class="layui-input-inline" style="margin-right: 20px">
-                                    <input type="text" name="title" required  lay-verify="required" placeholder="请输入壁厚" autocomplete="off" class="layui-input">
+                                    <input type="text" name="specifications2"   lay-verify="required" placeholder="请输入壁厚" autocomplete="off" class="layui-input">
                                 </div>
                                  <button class="layui-btn layui-btn-danger">立即搜索</button>
 	            			</div>
