@@ -1,0 +1,25 @@
+[ 2017-12-15T19:25:45+08:00 ] ::1 /stell/Public/product/images/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-12-15T19:25:45+08:00 ] ::1 /stell/Public/product/images/icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-12-15T20:14:08+08:00 ] ::1 /stell/Public/product/images/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-12-15T20:24:42+08:00 ] ::1 /stell/Public/page/images/icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-12-15T20:24:42+08:00 ] ::1 /stell/Public/page/images/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001801s ]
+

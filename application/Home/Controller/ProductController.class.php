@@ -2,23 +2,57 @@
 namespace Home\Controller;
 
 use Think\Controller;
-use  Home\Model\GoodsModel;
+use  Home\Model\ProductModel;
 
 class ProductController extends Controller {
-
+/**
+ * 产品展示的首页
+ * @return [type] [description]
+ */
     public function index(){
-
-        $user=new GoodsModel();
-        $goodsDate=$user->resGoods();
-        $contentDate = $user->content();
-        $materialDate = $user->resMaterial();
-        $materData = $user->resMaterial();
           $this->assign('title',"产品展示");
-          $this->assign('goodsDate',$goodsDate);
-          $this->assign('materData',$materData);
-          $this->assign('contentDate',$contentDate);
-          $this->assign('materData',$materData);
-         $this->display();
+         $User = M('Product');
+        if($_GET['p']==NULL){
+            $p=1;
+        }else{
+            $p=$_GET['p'];
+        }
+             $list = $User->order('id')->page($p.',15')->select();
 
+        $this->assign('list',$list);
+        $count = $User->count();
+        $Page = new \Think\Page($count,15);
+        $show = $Page->show();
+        $this->assign('page',$show);
+        $this->display();
+
+    }
+    /**
+     * 产品展示的文章页
+     * @return [type] [description]
+     */
+    public function pro()
+    {
+        $id = $_GET['id'];
+        $pro = new ProductModel();
+        $con=$pro->secpro($id);
+        $this->assign('title',$con[title]);
+        $this->assign('data',$con);
+
+        $lianxifangshi=$pro->content();
+        $this->assign('lianxifangshi',$lianxifangshi);
+
+
+
+          $User = M('Product');
+         $p=1;
+        $list = $User->order('id')->page($p.',5')->select();
+        $this->assign('list',$list);
+        $count = $User->count();
+        $Page = new \Think\Page($count,5);
+        $show = $Page->show();
+
+
+        $this->display('show');
     }
 }

@@ -1,0 +1,38 @@
+[ 2017-12-16T15:21:26+08:00 ] ::1 /stell/Public/product/images/icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-12-16T15:21:26+08:00 ] ::1 /stell/Public/product/images/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+
+[ 2017-12-16T16:13:50+08:00 ] ::1 /stell/Public/information/img/tp/%7B1.jpg%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020732s ]
+ERR: 无法加载控制器:Information
+
+[ 2017-12-16T16:13:51+08:00 ] ::1 /stell/Public/information/img/tp/%7B1.jpg%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004496s ]
+ERR: 无法加载控制器:Information
+
+[ 2017-12-16T16:48:49+08:00 ] ::1 /stell/Public/information/images/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-12-16T16:48:49+08:00 ] ::1 /stell/Public/information/images/icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+

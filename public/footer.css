@@ -1,4 +1,5 @@
 .footer{
+            clear:both;
 	margin: 0 auto;
 	width: 100%;
 	background-color: #42474d;
@@ -14,10 +15,10 @@
 	float: left;
 	font-size: 18px;
 	padding-left: 70px;
-    padding-right: 50px;
+            padding-right: 50px;
 	position: relative;
-    height: 60px;
-    line-height: 129px;
+            height: 60px;
+            line-height: 129px;
 	width: 14%;
 	color: #dcdcdc;
 }
@@ -111,8 +112,74 @@ i.add4{
 .footer-youlian a{
     color: #fff;
     padding:10px;
-} 
+}
 .footer-lxfs,.footer-bq{
     text-align: center;
     color: #fff;
+}
+/*分页*/
+.page{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    clear: both;
+}
+.num,.current,.prev,.next{
+background-color: rgb(255, 255, 255);
+border-bottom-color: rgb(226, 226, 226);
+border-bottom-style: solid;
+border-bottom-width: 0.666667px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(226, 226, 226);
+border-left-style: solid;
+border-left-width: 0.666667px;
+border-right-color: rgb(226, 226, 226);
+border-right-style: solid;
+border-right-width: 0.666667px;
+border-top-color: rgb(226, 226, 226);
+border-top-style: solid;
+border-top-width: 0.666667px;
+box-sizing: content-box;
+color: rgb(51, 51, 51);
+display: inline-block;
+font-family: Helvetica Neue, Helvetica, PingFang SC, 微软雅黑, Tahoma, Arial, sans-serif;
+font-feature-settings: normal;
+font-kerning: auto;
+font-language-override: normal;
+font-size: 12px;
+font-size-adjust: none;
+font-stretch: normal;
+font-style: normal;
+font-variant: normal;
+font-variant-alternates: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-variant-position: normal;
+font-weight: 400;
+height: 28px;
+line-height: 28px;
+margin-bottom: 5px;
+margin-left: 0px;
+margin-right: -1px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 0px;
+position: relative;
+text-align: left;
+vertical-align: middle;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none;
+}
+.current{
+    background:orange;
 }

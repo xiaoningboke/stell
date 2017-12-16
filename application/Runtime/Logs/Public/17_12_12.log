@@ -1,0 +1,20 @@
+[ 2017-12-12T17:19:18+08:00 ] ::1 /stell/Public/img/product.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-12-12T17:20:00+08:00 ] ::1 /stell/Public/img/product.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007831s ]
+
+[ 2017-12-12T18:52:16+08:00 ] ::1 /stell/Public/img/cpzh/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+
+[ 2017-12-12T18:52:31+08:00 ] ::1 /stell/Public/img/cpzh/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
