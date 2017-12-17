@@ -36,3 +36,30 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
 
+[ 2017-12-16T17:33:33+08:00 ] ::1 /stell/Public/head.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+ERR: 无法加载控制器:Head.css
+
+[ 2017-12-16T17:33:33+08:00 ] ::1 /stell/Public/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011665s ]
+ERR: 无法加载控制器:Footer.css
+
+[ 2017-12-16T17:33:33+08:00 ] ::1 /stell/Public/chushihua.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003829s ]
+ERR: 无法加载控制器:Chushihua.css
+

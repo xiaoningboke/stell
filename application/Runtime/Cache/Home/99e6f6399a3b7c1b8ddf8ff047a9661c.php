@@ -12,7 +12,7 @@
 
 
 
-        <link rel="stylesheet" href="/stell/Public/stock/css/index.css">
+        <link rel="stylesheet" href="/stell/Public/logistics/css/index.css">
         </head>
         <body>
         <div id="content">
@@ -54,69 +54,52 @@
             </div>
 
             <div class="main">
-            	<div class="main-datu">
-            		<img src="/stell/Public/stock/img/taili.gif">
-            	</div>
-            	<div class="main-sousuo">
-            		<form class="layui-form" method="post" action="<?php echo U('Home/Stock/resgoods');?>">
-	            			<div class="main-sousuo-bottom">
-	            				<span>材质</span>
-							<div class="layui-input-inline">
-							        <select name="material" lay-verify="required" lay-search="">
-							          <option value="">请输入或选择材质</option>
-                                                                                            <?php if(is_array($materData)): foreach($materData as $key=>$vo): ?><option value="<?php echo ($vo); ?>" name="<?php echo ($vo); ?>"><?php echo ($vo); ?></option><?php endforeach; endif; ?>
-							        </select>
-							      </div>
-							      <span>规格</span>
-							        <div class="layui-input-inline">
-                                    <input type="text" name="specifications1"   lay-verify="required" placeholder="请输入外径" autocomplete="off" class="layui-input">
-                                </div>
-							       <span>X</span>
-							        <div class="layui-input-inline" style="margin-right: 20px">
-                                    <input type="text" name="specifications2"   lay-verify="required" placeholder="请输入壁厚" autocomplete="off" class="layui-input">
-                                </div>
-                                 <button class="layui-btn layui-btn-danger">立即搜索</button>
-	            			</div>
-		</form>
-                        <div class="bmyx">因版面有限，未列规格请电询，非标尺规格可加工定做</div>
-            	</div>
-            	<div class="layui-form">
-                   <table class="layui-table">
-                        <colgroup>
-                          <col width="150">
-                          <col width="150">
-                          <col width="150">
-                          <col>
-                        </colgroup>
-                        <thead>
-                          <tr>
-                            <th>品种</th>
-                            <th>材质</th>
-                            <th>规格</th>
-                            <th>钢厂</th>
-                            <th>重量/数量</th>
-                            <th>供应商</th>
-                            <th>联系方式</th>
-                            <th>仓库区</th>
-                            <th>更新时间</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
-                            <td><?php echo ($vo["varieties"]); ?></td>
-                            <td><?php echo ($vo["material"]); ?></td>
-                            <td><?php echo ($vo["specifications"]); ?></td>
-                            <td><?php echo ($vo["field"]); ?></td>
-                             <td><?php echo ($vo["weight"]); ?></td>
-                             <td><?php echo ($vo["supplier"]); ?></td>
-                            <td><?php echo ($vo["contact"]); ?></td>
-                            <td><?php echo ($vo["warehouse"]); ?></td>
-                            <td><?php echo ($vo["time"]); ?></td>
-                          </tr><?php endforeach; endif; ?>
-                        </tbody>
-                      </table>
-                      <div class="result page"><?php echo ($page); ?></div>
+                <div class="main-img">
+                  <img src="/stell/Public/logistics/img/w.jpg">
                 </div>
+                <div class="main-cent">
+                    <div class="main-cent-one">
+                      <span class="one-pic"></span>
+                      <div class="cent-word">
+                           <h1>免费找车</h1>
+                            <p>物流路线 一键搜索，快速响应</p>
+                      </div>
+
+                     </div>
+                    <div class="main-cent-one">
+                      <span class="one-pic"></span>
+                      <div class="cent-word">
+                           <h1>全面覆盖</h1>
+                            <p>近百个城市已支持物流查询</p>
+                      </div>
+                    </div>
+                    <div class="main-cent-one">
+                      <span class="one-pic"></span>
+                      <div class="cent-word">
+                           <h1>方便快捷</h1>
+                            <p>7*24小时专业客服人员为您服务</p>
+                      </div>
+                    </div>
+                </div>
+                <div>
+                  <div class="lxwm">联系我们</div>
+                  <div class="mian-buttom">
+                    <div class="word buttom">
+                      <h2 class="qgfwrx"><em></em>全国服务热线</h2>
+                      <p class="fwrx">服务热线：<?php echo ($conData["phone"]); ?></p>
+                      <p class="fwsj">（服务时间：8：00-17：30）</p>
+                    </div>
+                    <div class="picture buttom">
+                        <h2 class="qgfwrx"><em></em>QQ客服</h2>
+                        <img src="/stell/Public/logistics/img/qq.png">
+                    </div>
+                    <div class="picture buttom">
+                        <h2 class="qgfwrx"><em></em>微信客服</h2>
+                        <img src="/stell/Public/logistics/img/qq.png">
+                    </div>
+                  </div>
+                </div>
+            </div>
             <div class="footer">
 	<div class="footer-top">
 		<ul class="w1180">
@@ -172,7 +155,7 @@
 	</div>
 </div>
 
-        </div>
+
         <script src="/stell/Public/layui/layui.js" charset="utf-8"></script>
 		<script>
 		layui.use(['form', 'layedit', 'laydate'], function(){

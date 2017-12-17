@@ -25,27 +25,31 @@
                 <div class="header-right">
                     <ul class="header-right-ul">
                         <li>
-                            <a href="#">首页</a>
+                            <a href="<?php echo U('Home/Index/index');?>">首页</a>
                             <i>/</i>
                         </li>
                         <li>
-                            <a href="#">现货查询</a>
+                            <a href="<?php echo U('Home/Stock/index');?>">现货查询</a>
                             <i>/</i>
                         </li>
                         <li>
-                            <a href="#">产品中心</a>
+                            <a href="<?php echo U('Home/Product/index');?>">产品中心</a>
                             <i>/</i>
                         </li>
                         <li>
-                            <a href="#">资讯</a>
+                            <a href="<?php echo U('Home/Information/index');?>">资讯</a>
                             <i>/</i>
                         </li>
                         <li>
-                            <a href="#">钢管知识</a>
+                            <a href="<?php echo U('Home/Knowledge/index');?>">钢管知识</a>
+                            <i>/</i>
+                        </li>
+                         <li>
+                            <a href="<?php echo U('Home/Logistics/index');?>">货运物流</a>
                             <i>/</i>
                         </li>
                         <li>
-                            <a href="#">关于我们</a>
+                            <a href="<?php echo U('Home/About/index');?>">关于我们</a>
                         </li>
                     </ul>
                 </div>
@@ -233,16 +237,17 @@
 	<div class="footer-buttom">
 		<div class="footer-nav">
 			<ul>
-				<li>现货查询</li>
-				<li>产品中心</li>
-				<li>资讯</li>
-				<li>钢管知识</li>
-				<li>关于我们</li>
+				<li><a href="<?php echo U('Home/Stock/index');?>">现货查询</a></li>
+				<li><a href="<?php echo U('Home/Product/index');?>">产品中心</a></li>
+				<li><a href="<?php echo U('Home/Information/index');?>">资讯</a></li>
+				<li><a href="<?php echo U('Home/Knowledge/index');?>">钢管知识</a></li>
+				<li><a href="<?php echo U('Home/Logistics/index');?>">货运物流</a></li>
+				<li><a href="<?php echo U('Home/About/index');?>">关于我们</a></li>
 			</ul>
 		</div>
 		<div class="footer-youlian">
 			<b>友情链接：</b>
-			
+
 				<a href="#">千行创想网络</a>
 				<a href="#">千行创想网络</a>
 				<a href="#">千行创想网络</a>
@@ -251,7 +256,7 @@
 				<a href="#">千行创想网络</a>
 				<a href="#">千行创想网络</a>
 				<a href="#">千行创想网络</a>
-			
+
 		</div>
 		<div class="footer-lxfs">
 			联系电话：0635-8889265
@@ -261,6 +266,7 @@
 		</div>
 	</div>
 </div>
+
         </div>
         <script src="/stell/Public/layui/layui.js" charset="utf-8"></script>
 		<script>

@@ -1,0 +1,174 @@
+.main-img{
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+}
+.main-img img{
+    width: 1200px;
+    height: 300px;
+}
+.main-cent{
+    margin: 0 auto;
+    width: 970px;
+}
+.main-cent-one{
+    margin: 12px;
+    float: left;
+}
+.mian-buttom{
+    width:1200px;
+    margin: 0 auto;
+}
+.one-pic{
+    background-image: url("../img/bus_icon.png");
+    background-position: 0px 0px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    color: rgb(51, 51, 51);
+    float: left;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-weight: 400;
+    height: 60px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 13px;
+    margin-top: 0px;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 60px;
+}
+h1{
+    color: #0054bc;
+    font-family: Microsoft Yahei,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+p{
+    color: #4e7eb4;
+    font-size: 12px;
+}
+.cent-word{
+    border-right: 1px solid #e4e4e4;
+    float: left;
+    height: 40px;
+    padding: 10px 0;
+    width: 224px;
+}
+.lxwm{
+    width:1100px;
+    margin: 10 auto;
+    clear: both;
+    padding:50px 50px;
+    color: rgb(85, 85, 85);
+    font-family: Tahoma, Arial, "微软雅黑", sans-serif;
+    font-size: 22px;
+
+}
+.word{
+    width: 400px;
+    height:185px;
+    text-align: center;
+}
+h2 em{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/sf-ico.jpg");
+    background-origin: padding-box;
+    background-position: 0px 0px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    font-family: Tahoma, Arial, "微软雅黑", sans-serif;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: 14px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-weight: 400;
+    height: 30px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    margin-top: 0px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+}
+.qgfwrx{
+    color: rgb(51, 51, 51);
+    font-family: Tahoma, Arial, "微软雅黑", sans-serif;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 15px;
+}
+.fwrx{
+    padding:0 0 5px 0;
+    font-size:16px;
+}
+.fwsj{
+    color: #999;
+}
+.picture{
+    text-align: center;
+    width:350px;
+    height: 185px;
+    padding:0;
+}
+.buttom{
+    padding-top:30px;
+    border: 1px solid #e4e4e4;
+    float: left;
+    margin-bottom:30px;
+}
+.picture img{
+    width: 100px;
+    height: 100px;
+}

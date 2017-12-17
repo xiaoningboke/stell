@@ -1,0 +1,87 @@
+<include file="Public:head" />
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/information/css/nprogress.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/information/css/style.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/information/css/font-awesome.min.css">
+<link rel="apple-touch-icon-precomposed" href="__PUBLIC__/information/images/icon.png">
+<link rel="shortcut icon" href="__PUBLIC__/information/images/favicon.ico">
+<script src="__PUBLIC__/information/js/jquery-2.1.4.min.js"></script>
+<script src="__PUBLIC__/information/js/nprogress.js"></script>
+<script src="__PUBLIC__/information/js/jquery.lazyload.min.js"></script>
+
+</head>
+<body class="user-select single">
+<header class="header">
+<include file="Public:nav" />
+</header>
+<section class="container">
+<div class="content-wrap">
+<div class="content">
+  <header class="article-header">
+	<h1 class="article-title">{$data.title}</h1>
+	<div class="article-meta"> <span class="item article-meta-time">
+	  <time class="time" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="发表时间：{$data.time}"><i class="glyphicon glyphicon-time"></i> {$data.time}</time>
+	  </span> <span class="item article-meta-source" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="联系人：{$data.lianxiren}"><i class="glyphicon glyphicon-globe"></i> {$data.zuozhe}</span> </div>
+  </header>
+  <article class="article-content">
+	{$data.content}
+	<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a></div>
+
+		  <script>                  window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "1", "bdSize": "32" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=0.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+  </article>
+
+  <div class="relates">
+	<div class="title">
+	  <h3>相关推荐</h3>
+	</div>
+	<ul>
+	<foreach name="list" item="vo" >
+	  <li><a href="{:U('Home/information/pro',array('id'=>$vo['id']))}" title="" >{$vo.title}</a></li>
+	  </foreach>
+	</ul>
+  </div>
+</div>
+</div>
+<aside class="sidebar">
+<div class="fixed">
+  <div class="widget widget-tabs">
+	<ul class="nav nav-tabs" role="tablist">
+	  <li role="presentation" class="active"><a href="#notice" aria-controls="notice" role="tab" data-toggle="tab" draggable="false">联系方式</a></li>
+
+	</ul>
+	<div class="tab-content">
+	  <div role="tabpanel" class="tab-pane contact active" id="notice">
+		<h2>联系人:
+			  {$lianxifangshi.name}
+		  </h2>
+		  <h2>联系电话:
+		  <span id="sitetime"> {$lianxifangshi.phone} </span></h2>
+	  </div>
+
+	</div>
+  </div>
+
+</div>
+<div class="widget widget_hot">
+	  <h3>最新文章</h3>
+	  <ul>
+<foreach name="list" item="vo" >
+<li><a title="{$vo.title}" href="{:U('Home/information/pro',array('id'=>$vo['id']))}" ><span class="thumbnail">
+<img class="thumb" data-original="__PUBLIC__/information/img/tp/{$vo.image}" src="__PUBLIC__/information/img/tp/{$vo.image}" alt="{$vo.title}"  style="display: block;">
+</span><span class="text">{$vo.title}</span><span class="muted"><i class="glyphicon glyphicon-time"></i>
+{$vo.time}
+</span><span class="muted"><i class="glyphicon glyphicon-eye-open"></i>**</span></a></li>
+</foreach>
+	  </ul>
+  </div>
+
+
+</aside>
+</section>
+ <include file="Public:footer" />
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.ias.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

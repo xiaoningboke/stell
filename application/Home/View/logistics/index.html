@@ -1,0 +1,110 @@
+        <include file="Public:head" />
+        <link rel="stylesheet" href="__PUBLIC__/logistics/css/index.css">
+        </head>
+        <body>
+        <div id="content">
+        	<include file="Public:nav" />
+            <div class="main">
+                <div class="main-img">
+                  <img src="__PUBLIC__/logistics/img/w.jpg">
+                </div>
+                <div class="main-cent">
+                    <div class="main-cent-one">
+                      <span class="one-pic"></span>
+                      <div class="cent-word">
+                           <h1>免费找车</h1>
+                            <p>物流路线 一键搜索，快速响应</p>
+                      </div>
+
+                     </div>
+                    <div class="main-cent-one">
+                      <span class="one-pic"></span>
+                      <div class="cent-word">
+                           <h1>全面覆盖</h1>
+                            <p>近百个城市已支持物流查询</p>
+                      </div>
+                    </div>
+                    <div class="main-cent-one">
+                      <span class="one-pic"></span>
+                      <div class="cent-word">
+                           <h1>方便快捷</h1>
+                            <p>7*24小时专业客服人员为您服务</p>
+                      </div>
+                    </div>
+                </div>
+                <div>
+                  <div class="lxwm">联系我们</div>
+                  <div class="mian-buttom">
+                    <div class="word buttom">
+                      <h2 class="qgfwrx"><em></em>全国服务热线</h2>
+                      <p class="fwrx">服务热线：{$conData.phone}</p>
+                      <p class="fwsj">（服务时间：8：00-17：30）</p>
+                    </div>
+                    <div class="picture buttom">
+                        <h2 class="qgfwrx"><em></em>QQ客服</h2>
+                        <img src="__PUBLIC__/logistics/img/qq.png">
+                    </div>
+                    <div class="picture buttom">
+                        <h2 class="qgfwrx"><em></em>微信客服</h2>
+                        <img src="__PUBLIC__/logistics/img/qq.png">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <include file="Public:footer" />
+
+        <script src="__PUBLIC__/layui/layui.js" charset="utf-8"></script>
+		<script>
+		layui.use(['form', 'layedit', 'laydate'], function(){
+		  var form = layui.form
+		  ,layer = layui.layer
+		  ,layedit = layui.layedit
+		  ,laydate = layui.laydate;
+
+		  //日期
+		  laydate.render({
+		    elem: '#date'
+		  });
+		  laydate.render({
+		    elem: '#date1'
+		  });
+
+		  //创建一个编辑器
+		  var editIndex = layedit.build('LAY_demo_editor');
+
+		  //自定义验证规则
+		  form.verify({
+		    title: function(value){
+		      if(value.length < 5){
+		        return '标题至少得5个字符啊';
+		      }
+		    }
+		    ,pass: [/(.+){6,12}$/, '密码必须6到12位']
+		    ,content: function(value){
+		      layedit.sync(editIndex);
+		    }
+		  });
+
+		  //监听指定开关
+		  form.on('switch(switchTest)', function(data){
+		    layer.msg('开关checked：'+ (this.checked ? 'true' : 'false'), {
+		      offset: '6px'
+		    });
+		    layer.tips('温馨提示：请注意开关状态的文字可以随意定义，而不仅仅是ON|OFF', data.othis)
+		  });
+
+		  //监听提交
+		  form.on('submit(demo1)', function(data){
+		    layer.alert(JSON.stringify(data.field), {
+		      title: '最终的提交信息'
+		    })
+		    return false;
+		  });
+
+
+		});
+		</script>
+
+</body>
+</html>
+

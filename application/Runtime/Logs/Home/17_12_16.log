@@ -3915,3 +3915,870 @@ ERR: 1054:Unknown column 'js' in 'where clause'
 ERR: 1054:Unknown column 'js' in 'where clause'
  [ SQL语句 ] : SELECT * FROM `artide` WHERE ( Id=js ) LIMIT 1  
 
+[ 2017-12-16T16:55:34+08:00 ] ::1 /stell/index.php/Home/Knowledge/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004456s ]
+ERR: 无法加载控制器:Knowledge
+
+[ 2017-12-16T16:56:18+08:00 ] ::1 /stell/index.php/Home/Knowledge/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+ERR: 无法加载控制器:Knowledge
+
+[ 2017-12-16T16:56:54+08:00 ] ::1 /stell/index.php/Home/Knowledge/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+ERR: 无法加载控制器:Knowledge
+
+[ 2017-12-16T16:57:21+08:00 ] ::1 /stell/index.php/Home/Knowledge/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013044s ]
+ERR: 无法加载控制器:Knowledge
+
+[ 2017-12-16T16:57:27+08:00 ] ::1 /stell/index.php/Home/Knowledge/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003541s ]
+ERR: 无法加载控制器:Knowledge
+
+[ 2017-12-16T16:57:54+08:00 ] ::1 /stell/index.php/Home/Knowledge/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005036s ]
+
+[ 2017-12-16T16:57:59+08:00 ] ::1 /stell/index.php/Home/Information/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011844s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0952s ]
+SQL: SELECT * FROM `artide` WHERE ( kind=1 ) ORDER BY id LIMIT 0,10   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `artide` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004880s ]
+
+[ 2017-12-16T16:58:54+08:00 ] ::1 /stell/index.php/Home/knowledge/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011435s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0888s ]
+SQL: SELECT * FROM `artide` WHERE ( kind=2 ) ORDER BY id LIMIT 0,10   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `artide` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002487s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006622s ]
+
+[ 2017-12-16T16:59:02+08:00 ] ::1 /stell/index.php/Home/information/pro/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004141s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0891s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `artide` WHERE ( Id=7 ) LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\phpStudy\WWW\stell\application\Home\Controller\InformationController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0729s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `artide` WHERE ( kind=1 ) ORDER BY id LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `artide` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index: lianxiren C:\phpStudy\WWW\stell\application\Runtime\Cache\Home\87f7e66673ed7a4438aa9b24dd33d168.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003223s ]
+
+[ 2017-12-16T16:59:04+08:00 ] ::1 /stell/index.php/Home/information/pro/id/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0991s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0762s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `artide` WHERE ( Id=js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `artide` WHERE ( Id=js ) LIMIT 1  
+
+[ 2017-12-16T16:59:05+08:00 ] ::1 /stell/index.php/Home/information/pro/id/js/jquery.ias.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011411s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.1384s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.1446s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `artide` WHERE ( Id=js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `artide` WHERE ( Id=js ) LIMIT 1  
+
+[ 2017-12-16T16:59:06+08:00 ] ::1 /stell/index.php/Home/information/pro/id/js/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012150s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0801s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0490s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `artide` WHERE ( Id=js ) LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `artide` WHERE ( Id=js ) LIMIT 1  
+
+[ 2017-12-16T17:05:01+08:00 ] ::1 /stell/index.php/Home/knowledge/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012606s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0789s ]
+SQL: SELECT * FROM `artide` WHERE ( kind=2 ) ORDER BY id LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `artide` LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004239s ]
+
+[ 2017-12-16T17:05:08+08:00 ] ::1 /stell/index.php/Home/knowledge/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.052510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.052766s ]
+SQL: SHOW COLUMNS FROM `artide` [ RunTime:0.0708s ]
+SQL: SELECT * FROM `artide` WHERE ( kind=2 ) ORDER BY id LIMIT 0,10   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `artide` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000853s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003358s ]
+
+[ 2017-12-16T17:05:25+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008876s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1854s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0549s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0823s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.266103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003394s ]
+
+[ 2017-12-16T17:05:53+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009511s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1009s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0020s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.245149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.245495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011679s ]
+
+[ 2017-12-16T17:06:02+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011910s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1016s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0746s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.211253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.211552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010265s ]
+
+[ 2017-12-16T17:16:22+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007937s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0883s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0808s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0019s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000476s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011530s ]
+
+[ 2017-12-16T17:16:59+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008777s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1586s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0727s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.1163s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025332s ]
+
+[ 2017-12-16T17:17:12+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009948s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0932s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1061s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0778s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0014s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005645s ]
+
+[ 2017-12-16T17:24:03+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008154s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1644s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0803s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.1329s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0073s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0011s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000780s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.572032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.572391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017655s ]
+
+[ 2017-12-16T17:24:38+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0838s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0593s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004346s ]
+
+[ 2017-12-16T17:24:41+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006123s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0752s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.1052s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0013s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008429s ]
+
+[ 2017-12-16T17:26:20+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000529s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017745s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0814s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0016s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000649s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.213941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011652s ]
+
+[ 2017-12-16T17:30:59+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.074112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.074440s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1359s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.1072s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001866s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.526674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.526946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.050624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.050801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.082428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.086784s ]
+
+[ 2017-12-16T17:31:58+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004710s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0008s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2017-12-16T17:33:11+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003426s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0826s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0017s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003010s ]
+
+[ 2017-12-16T17:33:32+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005765s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0703s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0016s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003122s ]
+
+[ 2017-12-16T17:33:59+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0668s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000581s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000971s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004765s ]
+
+[ 2017-12-16T17:34:36+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000283s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0829s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0585s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0005s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006258s ]
+
+[ 2017-12-16T17:34:51+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0665s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0006s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010034s ]
+
+[ 2017-12-16T17:35:03+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003985s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0694s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005130s ]
+
+[ 2017-12-16T17:35:07+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007696s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0573s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002296s ]
+
+[ 2017-12-16T17:35:14+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002594s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0585s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0012s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.266533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004280s ]
+
+[ 2017-12-16T17:36:48+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007596s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0704s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0016s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000687s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002533s ]
+
+[ 2017-12-16T17:39:50+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.087069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.087474s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0810s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.485868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.486198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.056185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.056391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.063956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.070324s ]
+
+[ 2017-12-16T17:40:05+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003764s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0565s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0010s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004552s ]
+
+[ 2017-12-16T17:40:21+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003215s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0687s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0007s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003824s ]
+

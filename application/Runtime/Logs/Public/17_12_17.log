@@ -1,0 +1,35 @@
+[ 2017-12-17T15:21:26+08:00 ] ::1 /stell/Public/logistics/css/__PUBLIC__/logistics/img/bus_icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2017-12-17T15:21:44+08:00 ] ::1 /stell/Public/logistics/css/__PUBLIC__/logistics/img/bus_icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-12-17T15:21:51+08:00 ] ::1 /stell/Public/logistics/css/__PUBLIC__/logistics/img/bus_icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-12-17T18:41:00+08:00 ] ::1 /stell/Public/product/images/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+
+[ 2017-12-17T18:41:01+08:00 ] ::1 /stell/Public/product/images/icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000655s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-12-17T19:22:28+08:00 ] ::1 /stell/Public/information/images/icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-12-17T19:22:28+08:00 ] ::1 /stell/Public/information/images/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
