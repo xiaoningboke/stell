@@ -521,3 +521,28 @@ class Html extends TagLib{
         return $parseStr;
     }
 }
+
+//自己加入
+switch(strtoupper($type)) {
+            case 'FCKEDITOR':
+                //.......
+                break;
+            case 'FCKMINI':
+                //.......
+                break;
+            case 'EWEBEDITOR':
+                //.......
+                break;
+            case 'NETEASE':
+                //.......
+                break;
+            case 'UBB':
+                //.......
+                break;
+            case 'KINDEDITOR':
+               //.......
+                break;
+            case 'UEDITOR':
+                $parseStr   =  "\n".'<script type="text/javascript" charset="utf-8" src="__ROOT__/Public/UEditor/ueditor.config.js"></script>'."\n".'<script type="text/javascript" charset="utf-8" src="__ROOT__/Public/UEditor/ueditor.all.js"></script>'."\n".'<script type="text/plain" id="'.$id.'" name="'.$name.'" style="'.$style.'">'.$content.'</script>'."\n".'<script type="text/javascript">var ue_'.$id.' = UE.getEditor("'.$id.'");</script>'."\n";
+                break;
+                //.......

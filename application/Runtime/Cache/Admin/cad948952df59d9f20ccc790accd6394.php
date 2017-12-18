@@ -5,6 +5,23 @@
     <meta charset="utf-8">
     <title>产品展示</title>
     <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+<script type="text/javascript" src="/stell/Public/static/jquery.js"></script>
+ <script type="text/javascript" src="/stell/Public/Ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="/stell/Public/Ueditor/ueditor.all.min.js"></script>
+    <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+    <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+    <script type="text/javascript" src="/stell/Public/Ueditor/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    window.UEDITOR_HOME_URL = "/stell/Public/Ueditor/";
+    $(document).ready(function () {
+      UE.getEditor('info', {
+      initialFrameHeight: 500,
+      initialFrameWidth: 1100,
+      serverUrl: "<?php echo U(MODULE_NAME.'/Index/save_info');?>"
+    });
+  });
+
+    </script>
 </head>
 
 <body class="layui-col-xs8">
@@ -88,7 +105,7 @@
   </div>
 <div class="layui-form-item">
 
-      <textarea id="demo" style="display: none;" name="content"></textarea>
+      <textarea name="info" id="info" style="width:1024px;height:500px;"></textarea>
 </div>
 <input type="submit" name="" value="提交">
 </form>

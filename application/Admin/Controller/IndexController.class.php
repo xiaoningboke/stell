@@ -148,7 +148,7 @@ class IndexController extends Controller {
     public function addproducts(){
       var_dump($_POST);
     }
-    //图片接受
+    //图片接收
     public function updatePicture(){
 
     }

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <taglib name="html" />
     <meta charset="utf-8">
     <title>产品展示</title>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
@@ -88,8 +89,7 @@
   </div>
 <div class="layui-form-item">
 
-      <textarea id="demo" style="display: none;" name="content"></textarea>
-</div>
+    <html:editor id="info" name="info" type="UEDITOR" >{$info.info}</html:editor></div>
 <input type="submit" name="" value="提交">
 </form>
 

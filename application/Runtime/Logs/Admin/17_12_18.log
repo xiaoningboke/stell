@@ -5073,3 +5073,433 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007411s ]
 INFO: [ app_end ] --END-- [ RunTime:0.007616s ]
 
+[ 2017-12-18T14:02:20+08:00 ] ::1 /stell/index.php/admin/Index/index.html/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.085232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.085592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003004s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.638782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.639009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.059822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.060002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.053305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.053480s ]
+
+[ 2017-12-18T14:02:24+08:00 ] ::1 /stell/index.php/admin/Index/index.html/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+ERR: 非法操作:index.html
+
+[ 2017-12-18T14:02:27+08:00 ] ::1 /stell/index.php/admin/Index/index.html/build/css/message.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004393s ]
+ERR: 非法操作:index.html
+
+[ 2017-12-18T14:02:27+08:00 ] ::1 /stell/index.php/admin/Index/index.html/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003375s ]
+ERR: 非法操作:index.html
+
+[ 2017-12-18T14:02:29+08:00 ] ::1 /stell/index.php/admin/Index/index.html/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017005s ]
+ERR: 非法操作:index.html
+
+[ 2017-12-18T14:02:47+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002612s ]
+
+[ 2017-12-18T14:02:49+08:00 ] ::1 /stell/index.php/admin/Index/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+ERR: 非法操作:build
+
+[ 2017-12-18T14:02:50+08:00 ] ::1 /stell/index.php/admin/Index/build/css/message.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003909s ]
+ERR: 非法操作:build
+
+[ 2017-12-18T14:02:51+08:00 ] ::1 /stell/index.php/admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.200649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004013s ]
+
+[ 2017-12-18T14:02:51+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000675s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005085s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:02:51+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010338s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:02:54+08:00 ] ::1 /stell/index.php/admin/Index/newproduct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.1601s ]
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` ORDER BY id LIMIT 0,10   [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` LIMIT 1   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009393s ]
+
+[ 2017-12-18T14:03:08+08:00 ] ::1 /stell/index.php/admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.234430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004130s ]
+
+[ 2017-12-18T14:03:08+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012516s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:03:08+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007883s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:03:37+08:00 ] ::1 /stell/index.php/admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002968s ]
+
+[ 2017-12-18T14:03:37+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003757s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:03:37+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014932s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:03:41+08:00 ] ::1 /stell/index.php/admin/Index/nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006548s ]
+
+[ 2017-12-18T14:03:41+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005207s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:03:41+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008827s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:04:31+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003746s ]
+
+[ 2017-12-18T14:04:34+08:00 ] ::1 /stell/index.php/admin/Index/build/css/nprogress.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011564s ]
+ERR: 非法操作:build
+
+[ 2017-12-18T14:04:36+08:00 ] ::1 /stell/index.php/admin/Index/build/css/message.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021443s ]
+ERR: 非法操作:build
+
+[ 2017-12-18T14:04:37+08:00 ] ::1 /stell/index.php/admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.093714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.095912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.251154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.251480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003864s ]
+
+[ 2017-12-18T14:04:37+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:04:37+08:00 ] ::1 /stell/index.php/admin/Index/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.045747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046231s ]
+ERR: 非法操作:plugins
+
+[ 2017-12-18T14:04:41+08:00 ] ::1 /stell/index.php/admin/Index/product.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007147s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.1979s ]
+NOTIC: [8] Undefined index: p C:\phpStudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 127 行.
+SQL: SELECT * FROM `product` ORDER BY id LIMIT 0,10   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.285855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008749s ]
+
+[ 2017-12-18T14:04:44+08:00 ] ::1 /stell/index.php/Admin/index/addproduct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2017-12-18T14:05:05+08:00 ] ::1 /stell/index.php/Admin/index/addproduct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011683s ]
+
+[ 2017-12-18T14:09:28+08:00 ] ::1 /stell/index.php/Admin/index/addproduct.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006344s ]
+
