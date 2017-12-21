@@ -1,10 +1,11 @@
 <?php
 namespace Home\Controller;
 
+use Home\Common\Common;
 use Think\Controller;
 use  Home\Model\ProductModel;
 
-class ProductController extends Controller {
+class ProductController extends Common {
 /**
  * 产品展示的首页
  * @return [type] [description]
@@ -24,6 +25,12 @@ class ProductController extends Controller {
         $Page = new \Think\Page($count,15);
         $show = $Page->show();
         $this->assign('page',$show);
+
+        $connectData = $this->Connect();
+        $this->assign('connectData',$connectData);
+
+         $secphone = $this->secphone();
+       $this->assign('secphone',$secphone);
         $this->display();
 
     }

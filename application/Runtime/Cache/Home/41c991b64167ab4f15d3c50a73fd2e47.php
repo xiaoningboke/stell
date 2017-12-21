@@ -15,10 +15,62 @@
         <link rel="stylesheet" href="/stell/Public/stock/css/index.css">
         </head>
         <body>
+          <button data-method="offset" data-type="auto" id="leftbox" class="leftbox" data-type="auto" onclick="OpenDiv()"><img src="/stell/Public/image/r-number.png" />
+                <p>重量计算器</p>
+                </button>
+                 <div id="div1">
+                
+                <div class="title">重量计算器</div>
+                <div class="con">
+                    <script LANGUAGE="JavaScript"> 
+                    function enfocus()
+                    {
+                        var t1 = document.forms[0].Data.value;
+                        var t2 = document.forms[0].Data2.value;
+                        var t3 = document.forms[0].Data3.value ;
+                        var t4 = document.forms[0].copy.value ;
+
+                    if(t1!="" && t2!=""&& t3!=""){
+
+                    document.getElementById("copy").value =( parseInt(t1) - parseInt(t2)) * parseInt(t3)*0.02466;
+                    }
+                    else {document.getElementById("copy").value = "";}
+                    }
+
+                    </script>
+                    <form>
+                        <div class="layui-form-item">
+                         <label class="layui-form-label">外径(mm)：</label>
+                            <div class="layui-input-inline">
+                              <input lay-verify="required" placeholder="请输入外径" autocomplete="off" class="layui-input" type="text" name="Data" onkeyup="enfocus()">
+                            </div>
+                          </div>
+                        <div class="layui-form-item">
+                         <label class="layui-form-label">壁厚(mm)：</label>
+                            <div class="layui-input-inline">
+                              <input lay-verify="required" placeholder="请输入壁厚" autocomplete="off" class="layui-input" type="text" NAME="Data2" onkeyup="enfocus()">
+                            </div>
+                          </div>
+                           <div class="layui-form-item">
+                         <label class="layui-form-label">长度(M)：</label>
+                            <div class="layui-input-inline">
+                              <input lay-verify="required" placeholder="请输入长度" autocomplete="off" class="layui-input" type="text" NAME="Data3" onkeyup="enfocus()">
+                            </div>
+                          </div>
+                           <div class="layui-form-item">
+                         <label class="layui-form-label">重量：</label>
+                            <div class="layui-input-inline">
+                              <input lay-verify="required" placeholder="请输入长度" autocomplete="off" class="layui-input" type="text" AME="Copy" id="copy">
+                            </div>
+                          </div>
+                      </form>
+                </div>
+               <a href="javascript:CloseDiv();">关闭</a>
+        </div>
         <div id="content">
         	<div class="header">
                 <div class="header-left">
-                    <img src="/stell/Public/index/img/logo.jpg">
+                    <img src="/stell/Public/image/qwdfbnmjytr7.jpg">
                 </div>
                 <div class="header-right">
                     <ul class="header-right-ul">
@@ -55,7 +107,7 @@
 
             <div class="main">
             	<div class="main-datu">
-            		<img src="/stell/Public/stock/img/taili.gif">
+            		<img src="/stell/Public/image/qwdfbnmjytr2.jpg">
             	</div>
             	<div class="main-sousuo">
             		<form class="layui-form" method="post" action="<?php echo U('Home/Stock/resgoods');?>">
@@ -152,15 +204,7 @@
 		</div>
 		<div class="footer-youlian">
 			<b>友情链接：</b>
-
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
+				<?php if(is_array($connectData)): foreach($connectData as $key=>$vo): ?><a href="<?php echo ($vo["connect"]); ?>" target="_blank"><?php echo ($vo["name"]); ?></a><?php endforeach; endif; ?>
 
 		</div>
 		<div class="footer-lxfs">
@@ -223,6 +267,17 @@
 
 
 		});
+
+
+     function OpenDiv(){
+                 document.getElementById("div1").style.display="block";
+                document.getElementById("open").style.display="none";
+            }
+
+            function CloseDiv(){
+                document.getElementById("div1").style.display="none";
+                document.getElementById("open").style.display="block";
+            }
 		</script>
 
 </body>

@@ -54,16 +54,7 @@ public function editGoods($id,$varieties,$material, $specifications,$field,$weig
       $s=$goods->where("Id=$id")->save($data);
       return $s;
 }
-        /**
-         * 查询联系方式
-         * @return [type] [description]
-         */
-    public function content(){
-        $con = M('Contact');
-        $contectData = $con->where('Id',1)->find();
-        //var_dump($contectData);
-        return $contectData;
-    }
+      
     /**
      * 删除现货信息
      * @param  [type] $id [description]

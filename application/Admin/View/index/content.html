@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>产品展示</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <js file="__ROOT__/Public/Ueditor/ueditor.config.js"/>  
+    <js file="__ROOT__/Public/Ueditor/ueditor.all.min.js"/>  
+    <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->  
+    <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->  
+    <js file="__ROOT__/Public/Ueditor/lang/zh-cn/zh-cn.js"/>  
+    <script type="text/javascript" charset="utf-8">  
+    window.UEDITOR_HOME_URL = "__PUBLIC__/Ueditor/";  
+    $(document).ready(function () {  
+      UE.getEditor('info', {  
+      initialFrameHeight: 500,  
+      initialFrameWidth: 700,  
+      serverUrl: "{:U(MODULE_NAME.'/Index/save_info')}"  
+    });  
+  });  
+      
+    </script>   
+</head>
+
+<body class="layui-col-xs8">
+<form method="post" action="{:U('Admin/Index/exitContact')}" enctype="multipart/form-data">
+<input type="hidden"  name="id" value="{$data.img}">
+
+<div class="layui-form-item" style="padding-top: 50px">
+<div class="layui-form-item">
+    <label class="layui-form-label">公司名称</label>
+    <div class="layui-input-block">
+      <input name="title" lay-verify="title" autocomplete="off" placeholder="请输入公司名称" class="layui-input" type="text" value="{$data.title}">
+    </div>
+  </div>
+  </div>
+
+
+<div class="layui-form-item">
+<div class="layui-inline">
+    <label class="layui-form-label">联系人</label>
+    <div class="layui-input-inline">
+      <input name="name" lay-verify="required" placeholder="请输入联系人" autocomplete="off" class="layui-input" type="text" value="{$data.name}">
+    </div>
+  </div>
+
+<div class="layui-inline">
+    <label class="layui-form-label">电话</label>
+    <div class="layui-input-inline">
+      <input name="phone" lay-verify="required" placeholder="请输入电话" autocomplete="off" class="layui-input" type="text" value="{$data.phone}">
+    </div>
+  </div>
+  </div>
+
+
+<div class="layui-form-item">
+<div class="layui-inline">
+    <label class="layui-form-label">QQ</label>
+    <div class="layui-input-inline">
+      <input name="qq" lay-verify="required" placeholder="请输入QQ" autocomplete="off" class="layui-input" type="text" value="{$data.qq}">
+    </div>
+  </div>
+
+<div class="layui-inline">
+    <label class="layui-form-label">微信</label>
+    <div class="layui-input-inline">
+      <input name="wetch" lay-verify="required" placeholder="请输入微信" autocomplete="off" class="layui-input" type="text" value="{$data.wetch}">
+    </div>
+  </div>
+  </div>
+<div class="layui-form-item">
+<div class="layui-inline">
+    <label class="layui-form-label">地址</label>
+    <div class="layui-input-inline">
+      <input name="address" lay-verify="required" placeholder="请输入地址" autocomplete="off" class="layui-input" type="text" value="{$data.address}">
+    </div>
+  </div>
+
+
+  </div>
+
+ <div class="layui-form-item">
+<div class="layui-inline">
+ <label class="layui-form-label">内容</label>
+    <div class="layui-input-inline">
+      <textarea name="info" id="info" style="width:700px;height:500px;">{$data.introduction}</textarea> 
+    </div>
+  </div>
+  </div>
+<input type="submit" name="" value="提交">
+</form>
+
+
+
+</body>
+ <script src="__PUBLIC__/layui/layui.js"></script>
+ <script>
+layui.use(['form', 'layedit', 'laydate'], function(){
+  var form = layui.form
+  ,layer = layui.layer
+  ,layedit = layui.layedit
+  ,laydate = layui.laydate;
+
+  //日期
+  laydate.render({
+    elem: '#date'
+  });
+  laydate.render({
+    elem: '#date1'
+  });
+
+
+
+
+  layedit.set({
+  uploadImage: {
+    url: '{:U('Admin/Index/updatePicture')}' //接口url
+    ,type: '' //默认post
+  }
+});
+//注意：layedit.set 一定要放在 build 前面，否则配置全局接口将无效。
+layedit.build('demo'); //建立编辑器
+});
+</script>
+</html>

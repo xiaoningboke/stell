@@ -33,22 +33,24 @@
 		</div>
 		<div class="footer-youlian">
 			<b>友情链接：</b>
-
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
+				<foreach name="connectData" item="vo" >
+					<a href="{$vo.connect}" target="_blank">{$vo.name}</a>
+				</foreach>
 
 		</div>
 		<div class="footer-lxfs">
-			联系电话：0635-8889265
+			联系电话：{$secphone.phone}
 		</div>
 		<div class="footer-bq">
-			Copyright2016 版权所有 www.maigang123.com 麦钢网 All Rights Reserved 鲁ICP备1600614
+			Copyright2017 版权所有All Rights Reserved 鲁ICP备1600614
 		</div>
 	</div>
 </div>
+<!-- 客服 -->
+<div class="izl-rmenu">
+	<a  class="cart1" style="display: block; background-color: black;"><div class="pic1"></div></a>
+    <a class="consult" target="_blank"><div class="phone" style="display:none;">{$secphone.phone}</div></a>    
+    <a class="cart"><div class="pic"></div></a>   
+</div>
+
+<!-- 客服 -->

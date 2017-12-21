@@ -5,7 +5,7 @@
 .main-top{
 	width: 100%;
 	height: 450px;
-	background: url(../img/bn1.jpg) no-repeat center center;
+	background: url(../../image/qwdfbnmjytr1.jpg) no-repeat center center;
 }
 .main-sousuo{
 	width: 1200px;
@@ -225,3 +225,60 @@
      thead.fixedThead tr th:last-child {
          color:#FF0000;
      }
+	.leftbox {
+		text-align: center;
+		position: fixed;
+		left: 10px;
+		top: 450px;
+		_position: absolute;
+		_top: expression(eval(document.documentElement.scrollTop+150));
+		_left: expression(eval(document.documentElement.scrollLeft));
+		background:rgb(125, 125, 185);
+		border-radius: 10px;
+	}
+	.leftbox p{
+		padding: 0;
+		color: #fff;
+		font-size: 12px;
+	}
+
+
+
+		#div1{
+        z-index:9999;
+		display: none;
+		position: fixed;
+		left:30%;
+		top:30%;
+		width:464px;
+		height:301px;
+		background:#7D7Db9;
+		text-align: center;
+
+}
+.title{
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(125, 125, 185);
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+}
+.con{
+	padding: 10px;
+}
+#open{
+
+position: absolute;
+
+top:50%;
+
+left:50%;
+
+width:100px;
+
+height:50px;
+
+}

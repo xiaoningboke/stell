@@ -14,6 +14,16 @@ public function secpro($id){
         return $contectData;
     }
     /**
+     * 查询所有的产品展示
+     * @return [type] [description]
+     */
+    public function selectcon(){
+        $con = M('Product');
+        $contectData = $con->select();
+
+        return $contectData;
+    }
+    /**
      * 查询联系方式
      * @return [type] [description]
      */

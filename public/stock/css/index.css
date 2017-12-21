@@ -23,3 +23,94 @@
     text-align: center;
 }
 
+
+
+.table{
+         width: 100%;
+         left:30%;
+         border-collapse:collapse;
+         border-spacing:0;
+     }
+     .fixedThead{
+         display: block;
+         width: 100%;
+     }
+     .scrollTbody{
+         display: block;
+         height: 210px;
+         overflow: hidden;
+         width: 100%;
+     }
+     .table td {
+         width: 300px;
+         border-bottom: #333 1px dashed;
+         padding: 5px;
+         background-color:#ddd;
+     }
+     .table th {
+         width: 300px;
+         border-bottom: #333 1px dashed;
+         border-top: #333 1px dashed;
+         padding: 5px;
+         line-height:24px;
+         background-color:#cfc;
+     }
+     .table tr{
+         border-bottom: #333 1px dashed;
+         line-height:24px;
+         padding: 5px;
+     }
+     thead.fixedThead tr th:last-child {
+         color:#FF0000;
+     }
+    .leftbox {
+        text-align: center;
+        position: fixed;
+        left: 10px;
+        top: 450px;
+        _position: absolute;
+        _top: expression(eval(document.documentElement.scrollTop+150));
+        _left: expression(eval(document.documentElement.scrollLeft));
+        background:rgb(125, 125, 185);
+        border-radius: 10px;
+    }
+    .leftbox p{
+        padding: 0;
+        color: #fff;
+        font-size: 12px;
+    }
+
+
+
+        #div1{
+        z-index:9999;
+        display: none;
+        position: fixed;
+        left:30%;
+        top:30%;
+        width:464px;
+        height:301px;
+        background:#7D7Db9;
+        text-align: center;
+
+}
+.title{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(125, 125, 185);
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.con{
+    padding: 10px;
+}
+#open{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:100px;
+    height:50px;
+}

@@ -1,10 +1,11 @@
 <?php
 namespace Home\Controller;
 
+use Home\Common\Common;
 use Think\Controller;
 use  Home\Model\ArtideModel;
 
-class KnowledgeController extends Controller {
+class KnowledgeController extends Common {
      public function index(){
               $this->assign('title',"钢管知识");
              $User = M('Artide');
@@ -20,6 +21,13 @@ class KnowledgeController extends Controller {
             $Page = new \Think\Page($count,10);
             $show = $Page->show();
             $this->assign('page',$show);
+
+            $connectData = $this->Connect();
+            $this->assign('connectData',$connectData);
+
+             $secphone = $this->secphone();
+       $this->assign('secphone',$secphone);
+
             $this->display();
 
         }

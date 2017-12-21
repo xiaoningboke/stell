@@ -41,25 +41,22 @@
                                 <a href="javascript:;" kit-target data-options="{url:'newproduct.html',icon:'&#xe6c6;',title:'现货产品',id:'1'}">
                                     <i class="layui-icon">&#xe6c6;</i><span> 现货产品</span></a>
                             </dd>
+                            
                             <dd>
-                                <a href="javascript:;" kit-target data-options="{url:'product.html',icon:'&#xe6c6;',title:'产品展示',id:'1'}">
-                                    <i class="layui-icon">&#xe6c6;</i><span> 产品展示</span></a>
+                                <a href="javascript:;" data-url="product.html" data-icon="&#xe628;" data-title="产品展示" kit-target data-id='3'><i class="layui-icon">&#xe628;</i><span> 产品展示</span></a>
                             </dd>
                             <dd>
-                                <a href="javascript:;" data-url="nav.html" data-icon="&#xe628;" data-title="导航栏" kit-target data-id='3'><i class="layui-icon">&#xe628;</i><span> 导航栏</span></a>
+                                <a href="javascript:;" data-url="artide.html" data-icon="&#xe614;" data-title="文章展示" kit-target data-id='4'><i class="layui-icon">&#xe614;</i><span>文章展示</span></a>
                             </dd>
                             <dd>
-                                <a href="javascript:;" data-url="list4.html" data-icon="&#xe614;" data-title="列表四" kit-target data-id='4'><i class="layui-icon">&#xe614;</i><span> 列表四</span></a>
-                            </dd>
-                            <dd>
-                                <a href="javascript:;" kit-target data-options="{url:'https://www.baidu.com',icon:'&#xe658;',title:'百度一下',id:'5'}"><i class="layui-icon">&#xe658;</i><span> 百度一下</span></a>
+                                <a href="javascript:;" data-url="content.html" data-icon="&#xe658;" data-title="关于我们" kit-target data-id='5'><i class="layui-icon">&#xe658;</i><span>关于我们</span></a>
                             </dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item layui-nav-itemed">
-                        <a href="javascript:;"><i class="fa fa-plug" aria-hidden="true"></i><span> 组件</span></a>
+                        <a href="javascript:;"><i class="fa fa-plug" aria-hidden="true"></i><span>图片替换</span></a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" kit-target data-options="{url:'navbar.html',icon:'&#xe658;',title:'Navbar',id:'6'}"><i class="layui-icon">&#xe658;</i><span> Navbar</span></a></dd>
+                            <dd><a href="javascript:;" kit-target data-options="{url:'exitimage.html',icon:'&#xe658;',title:'图片替换',id:'6'}"><i class="layui-icon">&#xe658;</i><span> 图片替换</span></a></dd>
                             <dd><a href="javascript:;" kit-target data-options="{url:'tab.html',icon:'&#xe658;',title:'TAB',id:'7'}"><i class="layui-icon">&#xe658;</i><span> Tab</span></a></dd>
                             <dd><a href="javascript:;" kit-target data-options="{url:'onelevel.html',icon:'&#xe658;',title:'OneLevel',id:'50'}"><i class="layui-icon">&#xe658;</i><span> OneLevel</span></a></dd>
                             <dd><a href="javascript:;" kit-target data-options="{url:'app.html',icon:'&#xe658;',title:'App',id:'8'}"><i class="layui-icon">&#xe658;</i><span> app.js主入口</span></a></dd>

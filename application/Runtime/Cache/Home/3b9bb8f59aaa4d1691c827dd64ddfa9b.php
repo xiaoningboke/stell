@@ -28,7 +28,7 @@
 <header class="header">
 <div class="header">
                 <div class="header-left">
-                    <img src="/stell/Public/index/img/logo.jpg">
+                    <img src="/stell/Public/image/qwdfbnmjytr7.jpg">
                 </div>
                 <div class="header-right">
                     <ul class="header-right-ul">
@@ -148,15 +148,7 @@
 		</div>
 		<div class="footer-youlian">
 			<b>友情链接：</b>
-
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
+				<?php if(is_array($connectData)): foreach($connectData as $key=>$vo): ?><a href="<?php echo ($vo["connect"]); ?>" target="_blank"><?php echo ($vo["name"]); ?></a><?php endforeach; endif; ?>
 
 		</div>
 		<div class="footer-lxfs">

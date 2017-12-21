@@ -18,7 +18,7 @@
         <div id="content">
         	<div class="header">
                 <div class="header-left">
-                    <img src="/stell/Public/index/img/logo.jpg">
+                    <img src="/stell/Public/image/qwdfbnmjytr7.jpg">
                 </div>
                 <div class="header-right">
                     <ul class="header-right-ul">
@@ -55,7 +55,7 @@
 
             <div class="main">
                 <div class="main-img">
-                  <img src="/stell/Public/logistics/img/w.jpg">
+                  <img src="/stell/Public/image/qwdfbnmjytr4.jpg">
                 </div>
                 <div class="main-cent">
                     <div class="main-cent-one">
@@ -91,11 +91,11 @@
                     </div>
                     <div class="picture buttom">
                         <h2 class="qgfwrx"><em></em>QQ客服</h2>
-                        <img src="/stell/Public/logistics/img/qq.png">
+                        <img src="/stell/Public/image/qwdfbnmjytr5.jpg">
                     </div>
                     <div class="picture buttom">
                         <h2 class="qgfwrx"><em></em>微信客服</h2>
-                        <img src="/stell/Public/logistics/img/qq.png">
+                        <img src="/stell/Public/image/qwdfbnmjytr6.jpg">
                     </div>
                   </div>
                 </div>
@@ -135,15 +135,7 @@
 		</div>
 		<div class="footer-youlian">
 			<b>友情链接：</b>
-
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
+				<?php if(is_array($connectData)): foreach($connectData as $key=>$vo): ?><a href="<?php echo ($vo["connect"]); ?>" target="_blank"><?php echo ($vo["name"]); ?></a><?php endforeach; endif; ?>
 
 		</div>
 		<div class="footer-lxfs">

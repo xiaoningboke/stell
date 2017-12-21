@@ -1,11 +1,13 @@
 <?php
 namespace Home\Controller;
+
+use Home\Common\Common;
 use Think\Controller;
 use Home\Model;
 use  Home\Model\GoodsModel;
 use Think\Page;
 
-class StockController extends Controller {
+class StockController extends Common {
     public function index(){
         $user = new GoodsModel();
         $materData=$user->resMaterial();
@@ -28,6 +30,13 @@ class StockController extends Controller {
         $Page = new \Think\Page($count,20);
         $show = $Page->show();
         $this->assign('page',$show);
+
+        $connectData = $this->Connect();
+        $this->assign('connectData',$connectData);
+
+         $secphone = $this->secphone();
+       $this->assign('secphone',$secphone);
+        
         $this->display();
     }
     public function resgoods(){

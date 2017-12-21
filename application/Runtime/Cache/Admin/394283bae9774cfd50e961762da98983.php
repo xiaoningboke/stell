@@ -39,7 +39,7 @@
                              <td><?php echo ($vo["lianxiren"]); ?></td>
                              <td><?php echo ($vo["lianxifangshi"]); ?></td>
                             <td><?php echo ($vo["time"]); ?></td>
-                            <td><a href="<?php echo U('Admin/index/exitproduct',array('id'=>$vo['id']));?>">修改</a> | <a href="<?php echo U('Admin/index/delproduct',array('id'=>$vo['id']));?>">删除</a></td>
+                            <td><a href="<?php echo U('Admin/index/exitsproduct',array('id'=>$vo['id']));?>">修改</a> | <a href="<?php echo U('Admin/index/delsproducts',array('id'=>$vo['id']));?>">删除</a></td>
 
                           </tr><?php endforeach; endif; ?>
                         </tbody>
