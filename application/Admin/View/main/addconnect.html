@@ -3,25 +3,25 @@
 
 <head>
     <meta charset="utf-8">
-    <title>修改链接</title>
+    <title>增加链接</title>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
 </head>
 
 <body>
-<form method="post" action="{:U('Admin/Index/exitconnects')}">
-<input type="hidden" name="id" value="{$data.id}">
+<form method="post" action="{:U('Admin/main/addconnects')}">
+
 <div class="layui-form-item" style="padding-top: 50px">
 <div class="layui-inline">
     <label class="layui-form-label">名称</label>
     <div class="layui-input-inline">
-      <input name="name" lay-verify="required" placeholder="请输入名称" autocomplete="off" class="layui-input" type="text" value="{$data.name}">
+      <input name="name" lay-verify="required" placeholder="请输入名称" autocomplete="off" class="layui-input" type="text">
     </div>
   </div><br><br><br>
 
 <div class="layui-inline">
     <label class="layui-form-label">链接</label>
     <div class="layui-input-inline">
-      <input  name="connect" lay-verify="required" placeholder="请输入链接" autocomplete="off" class="layui-input" type="text" value="{$data.connect}"><br><br>
+      <input  name="connect" lay-verify="required" placeholder="请输入链接" autocomplete="off" class="layui-input" type="text"><br><br>
     </div>
   </div>
   </div>

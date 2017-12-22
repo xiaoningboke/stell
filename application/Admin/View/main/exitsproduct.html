@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>文章修改</title>
-    <link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css">
+    <title>产品展示</title>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <js file="__ROOT__/Public/Ueditor/ueditor.config.js"/>  
@@ -26,10 +25,9 @@
 </head>
 
 <body class="layui-col-xs8">
-<form method="post" action="{:U('Admin/Index/exitartidecons')}" enctype="multipart/form-data">
+<form method="post" action="{:U('Admin/main/exitsproducts')}" enctype="multipart/form-data">
 <input type="hidden" name="id" value="{$data.id}">
-<input type="hidden" name="image" value="{$data.image}">
-<input type="hidden" name="" value="{$data.kind}" id="kinds">
+<input type="img" name="id" value="{$data.img}">
 
 <div class="layui-form-item" style="padding-top: 50px">
 <div class="layui-form-item">
@@ -41,54 +39,69 @@
   </div>
 
 
-<div class="layui-form-item layui-form">
+<div class="layui-form-item">
 <div class="layui-inline">
-    <label class="layui-form-label">作者</label>
+    <label class="layui-form-label">材质</label>
     <div class="layui-input-inline">
-      <input name="zuozhe" lay-verify="required" placeholder="请输入作者" autocomplete="off" class="layui-input" type="text" value="{$data.zuozhe}">
+      <input name="caizhi" lay-verify="required" placeholder="请输入材质" autocomplete="off" class="layui-input" type="text" value="{$data.caizhi}">
     </div>
   </div>
-  <div class="layui-inline ">
-  <label class="layui-form-label">类型</label>
-    <div class="layui-input-block">
 
-      <select name="kind" lay-filter="aihao">
-        <option value="1" id="one" selected ="">新闻资讯</option>
-        <option value="2" id="two" selected ="">钢管知识</option>
-      </select>
-        <script type="text/javascript">
-               var s = document.getElementById("kinds").value;
-               if(s===1){
-                document.getElementById("one").selected = "selected";
-              }else{
-                document.getElementById("two").selected = "selected";
-               }
-              
-      </script>
+<div class="layui-inline">
+    <label class="layui-form-label">钢厂</label>
+    <div class="layui-input-inline">
+      <input name="gangchang" lay-verify="required" placeholder="请输入钢厂" autocomplete="off" class="layui-input" type="text" value="{$data.gangchang}">
     </div>
-</div>
-
+  </div>
   </div>
 
+
+<div class="layui-form-item">
+<div class="layui-inline">
+    <label class="layui-form-label">联系人</label>
+    <div class="layui-input-inline">
+      <input name="lianxiren" lay-verify="required" placeholder="请输入联系人" autocomplete="off" class="layui-input" type="text" value="{$data.lianxiren}">
+    </div>
+  </div>
+
+<div class="layui-inline">
+    <label class="layui-form-label">联系方式</label>
+    <div class="layui-input-inline">
+      <input name="lianxifangshi" lay-verify="required" placeholder="请输入联系方式" autocomplete="off" class="layui-input" type="text" value="{$data.lianxifangshi}">
+    </div>
+  </div>
+  </div>
+<div class="layui-form-item">
+<div class="layui-inline">
+    <label class="layui-form-label">价格</label>
+    <div class="layui-input-inline">
+      <input name="price" lay-verify="required" placeholder="请输入价格" autocomplete="off" class="layui-input" type="text" value="{$data.price}">
+    </div>
+  </div>
+
+<div class="layui-inline">
+    <label class="layui-form-label">规格</label>
+    <div class="layui-input-inline">
+      <input name="guige" lay-verify="contact" placeholder="请输入规格" autocomplete="off" class="layui-input" type="text" value="{$data.guige}">
+    </div>
+  </div>
+  </div>
 
  <div class="layui-form-item">
-
-<div class="layui-inline">
- <label class="layui-form-label">图片</label>
-    <div class="layui-input-inline">
-      <input class="layui-input"  type="file" name="photo">
-    </div>
-  </div>
 <div class="layui-inline">
     <label class="layui-form-label">发布时间</label>
     <div class="layui-input-inline">
         <input name="time" id="date" lay-verify="date" placeholder="年-月-日" autocomplete="off" class="layui-input" type="text" value="{$data.time}">
       </div>
   </div>
+
+<div class="layui-inline">
+ <label class="layui-form-label">图片</label>
+    <div class="layui-input-inline">
+      <input class="layui-input"  type="file" value="">
+    </div>
   </div>
-
-
-
+  </div>
  <div class="layui-form-item">
 <div class="layui-inline">
  <label class="layui-form-label">内容</label>
@@ -124,7 +137,7 @@ layui.use(['form', 'layedit', 'laydate'], function(){
 
   layedit.set({
   uploadImage: {
-    url: '{:U('Admin/Index/updatePicture')}' //接口url
+    url: '{:U('Admin/main/updatePicture')}' //接口url
     ,type: '' //默认post
   }
 });

@@ -1,4 +1,4 @@
-﻿
+<?php if (!defined('THINK_PATH')) exit();?>﻿
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -12,9 +12,9 @@
 
         <!-- CSS -->
   
-        <link rel="stylesheet" href="__PUBLIC__/login/css/reset.css">
-        <link rel="stylesheet" href="__PUBLIC__/login/css/supersized.css">
-        <link rel="stylesheet" href="__PUBLIC__/login/css/style.css">
+        <link rel="stylesheet" href="/stell/Public/login/css/reset.css">
+        <link rel="stylesheet" href="/stell/Public/login/css/supersized.css">
+        <link rel="stylesheet" href="/stell/Public/login/css/style.css">
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -38,12 +38,11 @@
         
 
         <!-- Javascript -->
-        <script src="__PUBLIC__/login/js/jquery-1.8.2.min.js"></script>
-        <script src="__PUBLIC__/login/js/supersized.3.2.7.min.js"></script>
-        <script src="__PUBLIC__/login/js/supersized-init.js"></script>
-        <script src="__PUBLIC__/login/js/scripts.js"></script>
+        <script src="/stell/Public/login/js/jquery-1.8.2.min.js"></script>
+        <script src="/stell/Public/login/js/supersized.3.2.7.min.js"></script>
+        <script src="/stell/Public/login/js/supersized-init.js"></script>
+        <script src="/stell/Public/login/js/scripts.js"></script>
 
     </body>
 
 </html>
-

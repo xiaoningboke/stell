@@ -25,7 +25,7 @@
 </head>
 
 <body class="layui-col-xs8">
-<form method="post" action="{:U('Admin/Index/addproducts')}" enctype="multipart/form-data">
+<form method="post" action="{:U('Admin/main/addproducts')}" enctype="multipart/form-data">
 
 <div class="layui-form-item" style="padding-top: 50px">
 <div class="layui-form-item">
@@ -147,7 +147,7 @@ layui.use(['form', 'layedit', 'laydate'], function(){
 
   layedit.set({
   uploadImage: {
-    url: '{:U('Admin/Index/updatePicture')}' //接口url
+    url: '{:U('Admin/main/updatePicture')}' //接口url
     ,type: '' //默认post
   }
 });

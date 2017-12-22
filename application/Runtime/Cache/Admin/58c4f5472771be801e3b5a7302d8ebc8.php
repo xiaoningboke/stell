@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <title>增加链接</title>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
 </head>
 
 <body>
-<form method="post" action="{:U('Admin/Index/addconnects')}">
+<form method="post" action="<?php echo U('Admin/main/addconnects');?>">
 
 <div class="layui-form-item" style="padding-top: 50px">
 <div class="layui-inline">
@@ -47,7 +47,7 @@
 
 
 </body>
- <script src="__PUBLIC__/layui/layui.js"></script>
+ <script src="/stell/Public/layui/layui.js"></script>
  <script>
 layui.use(['form', 'layedit', 'laydate'], function(){
   var form = layui.form

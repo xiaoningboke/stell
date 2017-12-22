@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>后台管理</title>
-     <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
-    <link rel="stylesheet" href="__PUBLIC__/build/css/app.css" media="all">
+     <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+    <link rel="stylesheet" href="/stell/Public/build/css/app.css" media="all">
 </head>
 
 <body>
@@ -20,10 +20,7 @@
                     <a href="javascript:;">
                         <img src="http://m.zhengjinfan.cn/images/0.jpg" class="layui-nav-img"> Van
                     </a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;">基本资料</a></dd>
-                        <dd><a href="javascript:;">安全设置</a></dd>
-                    </dl>
+                    
                 </li>
                 <li class="layui-nav-item"><a href="javascript:;"><i class="fa fa-sign-out" aria-hidden="true"></i> 注销</a></li>
             </ul>
@@ -86,11 +83,11 @@
         var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
         document.write(unescape("%3Cspan id='cnzz_stat_icon_1264021086'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1264021086%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
     </script>
-    <script src="__PUBLIC__/layui/layui.js"></script>
+    <script src="/stell/Public/layui/layui.js"></script>
     <script>
         var message;
         layui.config({
-            base: '__PUBLIC__/build/js/'
+            base: '/stell/Public/build/js/'
         }).use(['app', 'message'], function() {
             var app = layui.app,
                 $ = layui.jquery,

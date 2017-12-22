@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <title>产品展示</title>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/fenye.css">
+    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/stell/Public/fenye.css">
 </head>
 
 <body>
 <div class="layui-form" style="margin-top: 20px">
-    <a href="{:U('Admin/index/addproduct')}" class="layui-btn layui-btn-warm">添加</a>
+    <a href="<?php echo U('Admin/main/addproduct');?>" class="layui-btn layui-btn-warm">添加</a>
                    <table class="layui-table">
                         <colgroup>
                           <col width="100">
@@ -31,28 +31,26 @@
                           </tr>
                         </thead>
                         <tbody>
-                        <foreach name="list" item="vo" >
-                          <tr>
-                            <td>{$vo.title}</td>
-                            <td>{$vo.caizhi}</td>
-                            <td>{$vo.guige}</td>
-                            <td>{$vo.gangchang}</td>
-                             <td>{$vo.lianxiren}</td>
-                             <td>{$vo.lianxifangshi}</td>
-                            <td>{$vo.time}</td>
-                            <td><a href="{:U('Admin/index/exitsproduct',array('id'=>$vo['id']))}">修改</a> | <a href="{:U('Admin/index/delsproducts',array('id'=>$vo['id']))}">删除</a></td>
+                        <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+                            <td><?php echo ($vo["title"]); ?></td>
+                            <td><?php echo ($vo["caizhi"]); ?></td>
+                            <td><?php echo ($vo["guige"]); ?></td>
+                            <td><?php echo ($vo["gangchang"]); ?></td>
+                             <td><?php echo ($vo["lianxiren"]); ?></td>
+                             <td><?php echo ($vo["lianxifangshi"]); ?></td>
+                            <td><?php echo ($vo["time"]); ?></td>
+                            <td><a href="<?php echo U('Admin/main/exitsproduct',array('id'=>$vo['id']));?>">修改</a> | <a href="<?php echo U('Admin/main/delsproducts',array('id'=>$vo['id']));?>">删除</a></td>
 
-                          </tr>
-                          </foreach>
+                          </tr><?php endforeach; endif; ?>
                         </tbody>
                       </table>
-                      <div class="result page">{$page}</div>
+                      <div class="result page"><?php echo ($page); ?></div>
                 </div>
 
 
 
 </body>
- <script src="__PUBLIC__/layui/layui.js"></script>
+ <script src="/stell/Public/layui/layui.js"></script>
  <script>
 layui.use(['form', 'layedit', 'laydate'], function(){
   var form = layui.form

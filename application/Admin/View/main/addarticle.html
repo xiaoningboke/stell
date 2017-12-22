@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>图片替换</title>
+    <title>文章添加</title>
     <link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css">
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -26,22 +26,13 @@
 </head>
 
 <body class="layui-col-xs8">
-<form method="post" action="{:U('Admin/Index/exitimages')}" enctype="multipart/form-data">
-<input type="hidden" name="id" value="{$data.id}">
-<input type="hidden" name="image" value="{$data.image}">
-<input type="hidden" name="" value="{$data.kind}" id="kinds">
+<form method="post" action="{:U('Admin/main/addartidecon')}" enctype="multipart/form-data">
 
 <div class="layui-form-item" style="padding-top: 50px">
-<div class="layui-inline">
- <label class="layui-form-label">首页图片</label>
-    <div class="layui-input-inline">
-      <input class="layui-input"  type="file" name="photo[]">
-    </div>
-  </div>
-  <div class="layui-inline">
- <label class="layui-form-label">现货查询图片</label>
-    <div class="layui-input-inline">
-      <input class="layui-input"  type="file" name="photo[]">
+<div class="layui-form-item">
+    <label class="layui-form-label">标题</label>
+    <div class="layui-input-block">
+      <input name="title" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input" type="text">
     </div>
   </div>
   </div>
@@ -49,48 +40,51 @@
 
 <div class="layui-form-item layui-form">
 <div class="layui-inline">
- <label class="layui-form-label">产品中心图片</label>
+    <label class="layui-form-label">作者</label>
     <div class="layui-input-inline">
-      <input class="layui-input"  type="file" name="photo[]">
+      <input name="zuozhe" lay-verify="required" placeholder="请输入作者" autocomplete="off" class="layui-input" type="text">
     </div>
   </div>
- <div class="layui-inline">
- <label class="layui-form-label">货运物流图片</label>
-    <div class="layui-input-inline">
-       <input class="layui-input"  type="file" name="photo[]">
+    <div class="layui-inline ">
+  <label class="layui-form-label">类型</label>
+    <div class="layui-input-block">
+      <select name="kind" lay-filter="aihao">
+        <option value="1">新闻资讯</option>
+        <option value="2" selected="">钢管知识</option>
+      </select>
     </div>
-  </div>
 </div>
 
 
+  </div>
 
- <div class="layui-form-item layui-form">
+
+ <div class="layui-form-item">
+
 <div class="layui-inline">
- <label class="layui-form-label">QQ图片</label>
+ <label class="layui-form-label">图片</label>
     <div class="layui-input-inline">
-      <input class="layui-input"  type="file" name="photo[]">
+      <input class="layui-input"  type="file" name="photo">
     </div>
   </div>
- <div class="layui-inline">
- <label class="layui-form-label">微信图片</label>
+<div class="layui-inline">
+    <label class="layui-form-label">发布时间</label>
     <div class="layui-input-inline">
-       <input class="layui-input"  type="file" name="photo[]">
+        <input name="time" id="date" lay-verify="date" placeholder="年-月-日" autocomplete="off" class="layui-input" type="text">
+      </div>
+  </div>
+  </div>
+
+
+
+ <div class="layui-form-item">
+<div class="layui-inline">
+ <label class="layui-form-label">内容</label>
+    <div class="layui-input-inline">
+      <textarea name="info" id="info" style="width:700px;height:500px;"></textarea> 
     </div>
   </div>
-</div>
-
-<div class="layui-form-item layui-form">
-
- <div class="layui-inline">
- <label class="layui-form-label">LOGO</label>
-    <div class="layui-input-inline">
-       <input class="layui-input"  type="file" name="photo[]">
-    </div>
   </div>
-</div>
-
-
-
 <input type="submit" name="" value="提交">
 </form>
 

@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>文章添加</title>
-    <link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css">
+    <title>产品展示</title>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <js file="__ROOT__/Public/Ueditor/ueditor.config.js"/>  
@@ -26,62 +25,67 @@
 </head>
 
 <body class="layui-col-xs8">
-<form method="post" action="{:U('Admin/Index/addartidecon')}" enctype="multipart/form-data">
+<form method="post" action="{:U('Admin/main/exitContact')}" enctype="multipart/form-data">
+<input type="hidden"  name="id" value="{$data.img}">
 
 <div class="layui-form-item" style="padding-top: 50px">
 <div class="layui-form-item">
-    <label class="layui-form-label">标题</label>
+    <label class="layui-form-label">公司名称</label>
     <div class="layui-input-block">
-      <input name="title" lay-verify="title" autocomplete="off" placeholder="请输入标题" class="layui-input" type="text">
+      <input name="title" lay-verify="title" autocomplete="off" placeholder="请输入公司名称" class="layui-input" type="text" value="{$data.title}">
     </div>
   </div>
   </div>
 
 
-<div class="layui-form-item layui-form">
+<div class="layui-form-item">
 <div class="layui-inline">
-    <label class="layui-form-label">作者</label>
+    <label class="layui-form-label">联系人</label>
     <div class="layui-input-inline">
-      <input name="zuozhe" lay-verify="required" placeholder="请输入作者" autocomplete="off" class="layui-input" type="text">
+      <input name="name" lay-verify="required" placeholder="请输入联系人" autocomplete="off" class="layui-input" type="text" value="{$data.name}">
     </div>
   </div>
-    <div class="layui-inline ">
-  <label class="layui-form-label">类型</label>
-    <div class="layui-input-block">
-      <select name="kind" lay-filter="aihao">
-        <option value="1">新闻资讯</option>
-        <option value="2" selected="">钢管知识</option>
-      </select>
-    </div>
-</div>
-
-
-  </div>
-
-
- <div class="layui-form-item">
 
 <div class="layui-inline">
- <label class="layui-form-label">图片</label>
+    <label class="layui-form-label">电话</label>
     <div class="layui-input-inline">
-      <input class="layui-input"  type="file" name="photo">
+      <input name="phone" lay-verify="required" placeholder="请输入电话" autocomplete="off" class="layui-input" type="text" value="{$data.phone}">
     </div>
   </div>
+  </div>
+
+
+<div class="layui-form-item">
 <div class="layui-inline">
-    <label class="layui-form-label">发布时间</label>
+    <label class="layui-form-label">QQ</label>
     <div class="layui-input-inline">
-        <input name="time" id="date" lay-verify="date" placeholder="年-月-日" autocomplete="off" class="layui-input" type="text">
-      </div>
+      <input name="qq" lay-verify="required" placeholder="请输入QQ" autocomplete="off" class="layui-input" type="text" value="{$data.qq}">
+    </div>
   </div>
+
+<div class="layui-inline">
+    <label class="layui-form-label">微信</label>
+    <div class="layui-input-inline">
+      <input name="wetch" lay-verify="required" placeholder="请输入微信" autocomplete="off" class="layui-input" type="text" value="{$data.wetch}">
+    </div>
+  </div>
+  </div>
+<div class="layui-form-item">
+<div class="layui-inline">
+    <label class="layui-form-label">地址</label>
+    <div class="layui-input-inline">
+      <input name="address" lay-verify="required" placeholder="请输入地址" autocomplete="off" class="layui-input" type="text" value="{$data.address}">
+    </div>
   </div>
 
 
+  </div>
 
  <div class="layui-form-item">
 <div class="layui-inline">
  <label class="layui-form-label">内容</label>
     <div class="layui-input-inline">
-      <textarea name="info" id="info" style="width:700px;height:500px;"></textarea> 
+      <textarea name="info" id="info" style="width:700px;height:500px;">{$data.introduction}</textarea> 
     </div>
   </div>
   </div>
@@ -112,7 +116,7 @@ layui.use(['form', 'layedit', 'laydate'], function(){
 
   layedit.set({
   uploadImage: {
-    url: '{:U('Admin/Index/updatePicture')}' //接口url
+    url: '{:U('Admin/main/updatePicture')}' //接口url
     ,type: '' //默认post
   }
 });

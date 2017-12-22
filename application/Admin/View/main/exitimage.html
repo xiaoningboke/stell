@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>产品展示</title>
+    <title>图片替换</title>
+    <link rel="stylesheet" href="__PUBLIC__/layui/css/layui.css">
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <js file="__ROOT__/Public/Ueditor/ueditor.config.js"/>  
@@ -25,70 +26,71 @@
 </head>
 
 <body class="layui-col-xs8">
-<form method="post" action="{:U('Admin/Index/exitContact')}" enctype="multipart/form-data">
-<input type="hidden"  name="id" value="{$data.img}">
+<form method="post" action="{:U('Admin/main/exitimages')}" enctype="multipart/form-data">
+<input type="hidden" name="id" value="{$data.id}">
+<input type="hidden" name="image" value="{$data.image}">
+<input type="hidden" name="" value="{$data.kind}" id="kinds">
 
 <div class="layui-form-item" style="padding-top: 50px">
-<div class="layui-form-item">
-    <label class="layui-form-label">公司名称</label>
-    <div class="layui-input-block">
-      <input name="title" lay-verify="title" autocomplete="off" placeholder="请输入公司名称" class="layui-input" type="text" value="{$data.title}">
-    </div>
-  </div>
-  </div>
-
-
-<div class="layui-form-item">
 <div class="layui-inline">
-    <label class="layui-form-label">联系人</label>
+ <label class="layui-form-label">首页图片</label>
     <div class="layui-input-inline">
-      <input name="name" lay-verify="required" placeholder="请输入联系人" autocomplete="off" class="layui-input" type="text" value="{$data.name}">
+      <input class="layui-input"  type="file" name="photo[]">
     </div>
   </div>
+  <div class="layui-inline">
+ <label class="layui-form-label">现货查询图片</label>
+    <div class="layui-input-inline">
+      <input class="layui-input"  type="file" name="photo[]">
+    </div>
+  </div>
+  </div>
 
+
+<div class="layui-form-item layui-form">
 <div class="layui-inline">
-    <label class="layui-form-label">电话</label>
+ <label class="layui-form-label">产品中心图片</label>
     <div class="layui-input-inline">
-      <input name="phone" lay-verify="required" placeholder="请输入电话" autocomplete="off" class="layui-input" type="text" value="{$data.phone}">
+      <input class="layui-input"  type="file" name="photo[]">
     </div>
   </div>
+ <div class="layui-inline">
+ <label class="layui-form-label">货运物流图片</label>
+    <div class="layui-input-inline">
+       <input class="layui-input"  type="file" name="photo[]">
+    </div>
   </div>
+</div>
 
 
-<div class="layui-form-item">
+
+ <div class="layui-form-item layui-form">
 <div class="layui-inline">
-    <label class="layui-form-label">QQ</label>
+ <label class="layui-form-label">QQ图片</label>
     <div class="layui-input-inline">
-      <input name="qq" lay-verify="required" placeholder="请输入QQ" autocomplete="off" class="layui-input" type="text" value="{$data.qq}">
+      <input class="layui-input"  type="file" name="photo[]">
     </div>
   </div>
-
-<div class="layui-inline">
-    <label class="layui-form-label">微信</label>
+ <div class="layui-inline">
+ <label class="layui-form-label">微信图片</label>
     <div class="layui-input-inline">
-      <input name="wetch" lay-verify="required" placeholder="请输入微信" autocomplete="off" class="layui-input" type="text" value="{$data.wetch}">
+       <input class="layui-input"  type="file" name="photo[]">
     </div>
   </div>
-  </div>
-<div class="layui-form-item">
-<div class="layui-inline">
-    <label class="layui-form-label">地址</label>
+</div>
+
+<div class="layui-form-item layui-form">
+
+ <div class="layui-inline">
+ <label class="layui-form-label">LOGO</label>
     <div class="layui-input-inline">
-      <input name="address" lay-verify="required" placeholder="请输入地址" autocomplete="off" class="layui-input" type="text" value="{$data.address}">
+       <input class="layui-input"  type="file" name="photo[]">
     </div>
   </div>
+</div>
 
 
-  </div>
 
- <div class="layui-form-item">
-<div class="layui-inline">
- <label class="layui-form-label">内容</label>
-    <div class="layui-input-inline">
-      <textarea name="info" id="info" style="width:700px;height:500px;">{$data.introduction}</textarea> 
-    </div>
-  </div>
-  </div>
 <input type="submit" name="" value="提交">
 </form>
 
@@ -116,7 +118,7 @@ layui.use(['form', 'layedit', 'laydate'], function(){
 
   layedit.set({
   uploadImage: {
-    url: '{:U('Admin/Index/updatePicture')}' //接口url
+    url: '{:U('Admin/main/updatePicture')}' //接口url
     ,type: '' //默认post
   }
 });
