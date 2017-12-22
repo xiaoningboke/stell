@@ -18,15 +18,26 @@ class IndexController extends Controller {
             $this->success('您已登录', U('Admin/main/index'));
         }
   }
+  /**
+   * 进行密码验证登录
+   * @return [type] [description]
+   */
   public function jump(){
   		$username = $_POST['username'];
         $password = md5($_POST['password']);
         $user = new UserModel();
         $userData=$user->secpwd($username);
-        var_dump($userData);
-        var_dump(md5(123));
+        if($userData["password"]==$password){
+        	session('name',$username);
+        	$this->success("登录成功",U('Admin/main/index'));
+        }else {
+        	$this->error("登录失败",U('Admin/index/login'));
+        }
   }
-
+  public function exits(){
+  	session('name',null);
+  	$this->success("退出",U('Admin/index/login'));
+  }
     
 }
 

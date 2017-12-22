@@ -40,3 +40,31 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
 
+[ 2017-12-22T20:06:47+08:00 ] ::1 /stell/Public/qq/js/jquery-1.8.3.min
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+ERR: 无法加载控制器:Qq
+
+[ 2017-12-22T20:06:47+08:00 ] ::1 /stell/Public/index/img/cpzh/5a3880517d0a7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-12-22T20:06:50+08:00 ] ::1 /stell/Public/qq/js/jquery-1.8.3.min
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载控制器:Qq
+
+[ 2017-12-22T20:06:50+08:00 ] ::1 /stell/Public/index/img/cpzh/5a3880517d0a7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+

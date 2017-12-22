@@ -7,7 +7,10 @@ use  Admin\Model\ProductModel;
 use  Admin\Model\ArtideModel;
 use  Admin\Model\ContactModel;
 use  Admin\Model\ConnectModel;
-class MainController extends Controller {
+use  Admin\Model\UserModel;
+
+use Admin\Common\Common;
+class MainController extends Common {
 /**
  * 显示首页
  * @return [type] [description]
@@ -494,6 +497,35 @@ class MainController extends Controller {
         }
         else{
             $this->error('没有删除',U('Admin/main/connect'));
+        }
+     }
+     //////////////////////////////////////////////////////////////////
+     ///个人信息
+     /**
+      * 显示更改密码的页面
+      * @return [type] [description]
+      */
+     public function infor(){
+        
+        $this->display();
+     }
+     public function infors(){
+        $oldpassword = md5($_POST[oldpassword]);
+        $password = md5($_POST[password]);
+        $infor = new UserModel();
+        $ConnectData = $infor->secpwd($_SESSION['name']);
+        if($ConnectData[password]==$oldpassword){
+
+            $s = $infor->exitpaw($_SESSION['name'],$password);
+             if($s>0){
+                $this->success('更新成功',U('Admin/main/infor'));
+            }
+            else{
+                $this->error('没有更新',U('Admin/main/infor'));
+            }
+        }else{
+                $this->error('原密码错误',U('Admin/main/infor'));
+
         }
      }
 ///////////////////////////////////////////////////////////////////////
