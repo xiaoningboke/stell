@@ -33,3 +33,73 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
 
+[ 2017-12-22T19:14:45+08:00 ] ::1 /stell/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2017-12-22T19:14:47+08:00 ] ::1 /stell/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+

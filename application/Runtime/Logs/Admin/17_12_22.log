@@ -2500,3 +2500,695 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
 
+[ 2017-12-22T14:42:08+08:00 ] ::1 /stell/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+
+[ 2017-12-22T14:42:08+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-12-22T14:42:08+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-12-22T14:42:08+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-12-22T15:02:16+08:00 ] ::1 /stell/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-12-22T15:02:17+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+
+[ 2017-12-22T15:02:17+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+
+[ 2017-12-22T15:02:17+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-12-22T15:04:05+08:00 ] ::1 /stell/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-12-22T15:04:05+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-12-22T15:04:05+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+
+[ 2017-12-22T15:04:05+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+
+[ 2017-12-22T15:30:10+08:00 ] ::1 /stell/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+
+[ 2017-12-22T15:30:11+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-12-22T15:30:11+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-12-22T15:30:11+08:00 ] ::1 /stell/admin/index/assets/img/backgrounds/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-12-22T19:14:52+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-12-22T19:14:52+08:00 ] ::1 /stell/index.php/admin/Index/assets/img/backgrounds/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+
+[ 2017-12-22T19:14:52+08:00 ] ::1 /stell/index.php/admin/Index/assets/img/backgrounds/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-12-22T19:14:53+08:00 ] ::1 /stell/index.php/admin/Index/assets/img/backgrounds/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-12-22T19:25:24+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+
+[ 2017-12-22T19:25:24+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:25:29+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-12-22T19:25:29+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:25:49+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-12-22T19:25:49+08:00 ] ::1 /stell/index.php/admin/Index/images/verify.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-12-22T19:25:49+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:26:08+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-12-22T19:26:08+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004239s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:27:55+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001396s ]
+
+[ 2017-12-22T19:27:55+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:28:07+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001146s ]
+
+[ 2017-12-22T19:28:07+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:28:51+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-12-22T19:28:51+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:40:08+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002129s ]
+
+[ 2017-12-22T19:40:08+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:40:16+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: username C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+
+[ 2017-12-22T19:41:35+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: username C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0229s ]
+NOTIC: [2] Missing argument 1 for Admin\Model\UserModel::secpwd(), called in C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php on line 25 and defined C:\phpstudy\WWW\stell\application\Admin\Model\UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined variable: username C:\phpstudy\WWW\stell\application\Admin\Model\UserModel.class.php 第 8 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002439s ]
+
+[ 2017-12-22T19:42:00+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: username C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-12-22T19:42:15+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: username C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2017-12-22T19:42:24+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] Undefined index: username C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-12-22T19:42:26+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:42:44+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001330s ]
+
+[ 2017-12-22T19:42:44+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:42:49+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2017-12-22T19:43:04+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-12-22T19:43:11+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\phpstudy\WWW\stell\application\Admin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-12-22T19:43:15+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:43:15+08:00 ] ::1 /stell/index.php/admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-12-22T19:43:15+08:00 ] ::1 /stell/index.php/admin/Index/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+ERR: 非法操作:js
+
+[ 2017-12-22T19:43:27+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-12-22T19:44:11+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2017-12-22T19:44:35+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-12-22T19:45:39+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-12-22T19:45:55+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 ) LIMIT 1   [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-12-22T19:47:12+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2017-12-22T19:47:30+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-12-22T19:47:52+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-12-22T19:47:59+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-12-22T19:48:39+08:00 ] ::1 /stell/index.php/Admin/index/jump.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `user` WHERE ( username=123 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002074s ]
+
