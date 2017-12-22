@@ -6,6 +6,7 @@ use  Admin\Model\GoodsModel;
 use  Admin\Model\ProductModel;
 use  Admin\Model\ArtideModel;
 use  Admin\Model\ContactModel;
+use  Admin\Model\ConnectModel;
 class IndexController extends Controller {
 /**
  * 显示首页
@@ -383,9 +384,17 @@ class IndexController extends Controller {
     }
 /////////////////////////////////////////////////////////////////////////////
 ///图片
+    /**
+     * 显示图片上传页面
+     * @return [type] [description]
+     */
     public function exitimage(){
         $this->display();
     }
+    /**
+     * 接收并且覆盖图片
+     * @return [type] [description]
+     */
     public function exitimages(){
          $upload = new \Think\Upload();// 实例化上传类
          $oldFN = $_FILES;//获取图片的信息，在后面传给重命名函数
@@ -406,6 +415,12 @@ class IndexController extends Controller {
              $this->error('上传成功！');
          }
     }
+    /**
+     * 图片重命名
+     * @param  [type] $oldFN [description]
+     * @param  [type] $path  [description]
+     * @return [type]        [description]
+     */
     public function renameFile($oldFN,$path){
         for($i=0;$i<count($oldFN);$i++){
              
@@ -414,7 +429,74 @@ class IndexController extends Controller {
              
          }
      }
-/////////////////////////////////////////////////////////////////////////
+     //////////////////////////////////////////////////////////////
+     ///友情链接
+     public function connect(){
+        $Connect = new ConnectModel();
+        $ConnectData = $Connect->seleConnect();
+        $this->assign('ConnectData',$ConnectData);
+        $this->display();
+     }
+     public function addconnect(){
+        $this->display();
+     }
+     public function addconnects(){
+        $name=$_POST[name];
+        $connect=$_POST[connect];
+        $product = new ConnectModel();
+        $s=$product->addconnect($name,$connect);
+        if($s>0){
+          $this->success('添加成功',U('Admin/index/connect'));
+        }
+        else{
+            $this->error('添加失败',U('Admin/index/connect'));
+        }
+     }
+     /**
+      * 显示修改页面
+      * @return [type] [description]
+      */
+     public function exitconnect(){
+        $pr = new ConnectModel();
+        $id=$_GET[id];
+        $data=$pr->secconnect($id);
+        $this->assign('data',$data);
+        $this->display();
+     }
+     /**
+      * 接收修改友情链接信息
+      * @return [type] [description]
+      */
+     public function exitconnects(){
+        $id=$_POST[id];
+        $name=$_POST[name];
+        $connect=$_POST[connect];
+        $pr = new ConnectModel();
+        $s=$pr->exitconnect($id,$name,$connect);
+        if($s>0){
+          $this->success('更新成功',U('Admin/index/connect'));
+        }
+        else{
+            $this->error('没有更新',U('Admin/index/connect'));
+        }
+        $this->assign('data',$data);
+     }
+     /**
+      * 删除友情链接信息
+      * @return [type] [description]
+      */
+     public function delconnect(){
+        $id=$_GET[id];
+        $product = new ConnectModel();
+        $s= $product ->delconnect($id);
+        if($s>0){
+             $this->success('删除成功',U('Admin/index/connect'));
+        }
+        else{
+            $this->error('没有删除',U('Admin/index/connect'));
+        }
+     }
+///////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 

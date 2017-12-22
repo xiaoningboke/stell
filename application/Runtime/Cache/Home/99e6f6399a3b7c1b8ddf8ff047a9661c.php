@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="/stell/Public/footer.css">
     <link rel="stylesheet" type="text/css" href="/stell/Public/chushihua.css">
     <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
-
+<!-- 客服 -->
+	<link rel="stylesheet" type="text/css" href="/stell/Public/qq/css/style.css">
+	<script type="text/javascript" src="/stell/Public/qq/js/jquery-1.8.3.min"></script>
 
 
 
@@ -139,13 +141,21 @@
 
 		</div>
 		<div class="footer-lxfs">
-			联系电话：0635-8889265
+			联系电话：<?php echo ($secphone["phone"]); ?>
 		</div>
 		<div class="footer-bq">
-			Copyright2016 版权所有 www.maigang123.com 麦钢网 All Rights Reserved 鲁ICP备1600614
+			Copyright2017 版权所有All Rights Reserved 鲁ICP备1600614
 		</div>
 	</div>
 </div>
+<!-- 客服 -->
+<div class="izl-rmenu">
+	<a  class="cart1" style="display: block; background-color: black;"><div class="pic1"></div></a>
+    <a class="consult" target="_blank"><div class="phone" style="display:none;"><?php echo ($secphone["phone"]); ?></div></a>    
+    <a class="cart"><div class="pic"></div></a>   
+</div>
+
+<!-- 客服 -->
 
 
         <script src="/stell/Public/layui/layui.js" charset="utf-8"></script>

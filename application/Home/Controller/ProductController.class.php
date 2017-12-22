@@ -31,6 +31,7 @@ class ProductController extends Common {
 
          $secphone = $this->secphone();
        $this->assign('secphone',$secphone);
+       
         $this->display();
 
     }

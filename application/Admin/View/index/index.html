@@ -57,9 +57,8 @@
                         <a href="javascript:;"><i class="fa fa-plug" aria-hidden="true"></i><span>图片替换</span></a>
                         <dl class="layui-nav-child">
                             <dd><a href="javascript:;" kit-target data-options="{url:'exitimage.html',icon:'&#xe658;',title:'图片替换',id:'6'}"><i class="layui-icon">&#xe658;</i><span> 图片替换</span></a></dd>
-                            <dd><a href="javascript:;" kit-target data-options="{url:'tab.html',icon:'&#xe658;',title:'TAB',id:'7'}"><i class="layui-icon">&#xe658;</i><span> Tab</span></a></dd>
-                            <dd><a href="javascript:;" kit-target data-options="{url:'onelevel.html',icon:'&#xe658;',title:'OneLevel',id:'50'}"><i class="layui-icon">&#xe658;</i><span> OneLevel</span></a></dd>
-                            <dd><a href="javascript:;" kit-target data-options="{url:'app.html',icon:'&#xe658;',title:'App',id:'8'}"><i class="layui-icon">&#xe658;</i><span> app.js主入口</span></a></dd>
+                            <dd><a href="javascript:;" kit-target data-options="{url:'connect.html',icon:'&#xe658;',title:'友情链接',id:'7'}"><i class="layui-icon">&#xe658;</i><span> 友情链接</span></a></dd>
+                        
                         </dl>
                     </li>
                     <li class="layui-nav-item">

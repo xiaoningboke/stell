@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<form method="post" action="<?php echo U('Admin/index/exitartidecons',array('id'=>$data['id']));?>">
+<form method="post" action="<?php echo U('Admin/index/exitartidecons',array('id'=>$data['id']));?>" enctype="multipart/form-data">
 <input type="hidden" value="<?php echo ($data["id"]); ?>" name="id">
 <div class="layui-form-item" style="padding-top: 50px">
 <div class="layui-inline">
