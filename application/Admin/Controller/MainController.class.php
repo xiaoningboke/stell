@@ -509,6 +509,10 @@ class MainController extends Common {
         
         $this->display();
      }
+     /**
+      * [infors description]
+      * @return [type] [description]
+      */
      public function infors(){
         $oldpassword = md5($_POST[oldpassword]);
         $password = md5($_POST[password]);
