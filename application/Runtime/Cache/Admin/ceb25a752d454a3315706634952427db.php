@@ -59,12 +59,7 @@
                         
                         </dl>
                     </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;" data-url="/components/table/table.html" data-name="table" kit-loader><i class="fa fa-plug" aria-hidden="true"></i><span> 表格(page)</span></a>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;" data-url="/views/form.html" data-name="form" kit-loader><i class="fa fa-plug" aria-hidden="true"></i><span> 表单(page)</span></a>
-                    </li>
+                   
                 </ul>
             </div>
         </div>
@@ -76,7 +71,7 @@
         <div class="layui-footer">
             <!-- 底部固定区域 -->
             2017 &copy;
-            <a href="http://sunxiaoning.com/">千行创想网络/</a> MIT license
+            <a href="http://sunxiaoning.com/">千行创想网络</a>
 
         </div>
     </div>
