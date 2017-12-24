@@ -4,3 +4,21 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
 ERR: 无法加载模块:Index
 
+[ 2017-12-23T20:17:10+08:00 ] ::1 /stell/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:Js
+
+[ 2017-12-23T20:22:30+08:00 ] ::1 /stell/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+ERR: 无法加载模块:Js
+
+[ 2017-12-23T20:49:35+08:00 ] ::1 /stell/js/canvas-particle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:Js
+

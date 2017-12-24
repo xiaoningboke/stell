@@ -23,7 +23,7 @@ class IndexController extends Controller {
    * @return [type] [description]
    */
   public function jump(){
-  		$username = $_POST['username'];
+  		  $username = $_POST['username'];
         $password = md5($_POST['password']);
         $user = new UserModel();
         $userData=$user->secpwd($username);

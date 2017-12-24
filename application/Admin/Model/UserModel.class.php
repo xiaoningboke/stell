@@ -10,7 +10,7 @@ class UserModel extends Model {
     public function secpwd($username)
     {
       $user = M('User');
-      $data=$user->where("username=$username")->find();
+      $data=$user->where("id=1")->find();
       return $data;
     }
     /**
