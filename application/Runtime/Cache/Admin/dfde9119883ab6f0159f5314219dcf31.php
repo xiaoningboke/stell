@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>产品展示</title>
+    <title>关于我们</title>
     <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/Public/Ueditor/ueditor.config.js"></script>  
@@ -57,14 +57,14 @@
 
 <div class="layui-form-item">
 <div class="layui-inline">
-    <label class="layui-form-label">QQ</label>
+    <label class="layui-form-label">电话</label>
     <div class="layui-input-inline">
       <input name="qq" lay-verify="required" placeholder="请输入QQ" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["qq"]); ?>">
     </div>
   </div>
 
 <div class="layui-inline">
-    <label class="layui-form-label">微信</label>
+    <label class="layui-form-label">传真</label>
     <div class="layui-input-inline">
       <input name="wetch" lay-verify="required" placeholder="请输入微信" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["wetch"]); ?>">
     </div>

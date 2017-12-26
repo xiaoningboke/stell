@@ -57,7 +57,7 @@ class ProductModel extends Model {
       $data['time']=$time;
       $data['price'] = $price;
       $data['img'] = $img;
-      $data['info']=$info;
+      $data['content']=$info;
       $s=$product->where("Id=$id")->save($data);
       return $s;
 }

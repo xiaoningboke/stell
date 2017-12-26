@@ -75,11 +75,12 @@
                     {
                         var t1 = document.forms[0].Data.value;
                         var t2 = document.forms[0].Data2.value;
+                        var t3 = document.forms[0].Data3.value;
                         var t4 = document.forms[0].copy.value ;
 
-                    if(t1!="" && t2!=""){
+                    if(t1!="" && t2!="" && t3!=""){
 
-                    document.getElementById("copy").value =(( parseInt(t1) - parseInt(t2)) * parseInt(t2)*0.02466).toFixed(2);
+                    document.getElementById("copy").value =( parseFloat(t1) - parseFloat(t2)) * parseFloat(t2)*0.02466*parseFloat(t3);
                     }
                     else {document.getElementById("copy").value = "";}
                     }
@@ -98,8 +99,14 @@
                               <input lay-verify="required" placeholder="请输入壁厚" autocomplete="off" class="layui-input" type="text" NAME="Data2" onkeyup="enfocus()">
                             </div>
                           </div>
+                          <div class="layui-form-item">
+                         <label class="layui-form-label">长度(M)：</label>
+                            <div class="layui-input-inline">
+                              <input lay-verify="required" placeholder="请输入壁厚" autocomplete="off" class="layui-input" type="text" NAME="Data3" onkeyup="enfocus()">
+                            </div>
+                          </div>
                            <div class="layui-form-item">
-                         <label class="layui-form-label">重量：</label>
+                         <label class="layui-form-label">重量(KG)：</label>
                             <div class="layui-input-inline">
                               <input lay-verify="required" placeholder="重量" autocomplete="off" class="layui-input" type="text" AME="Copy" id="copy">
                             </div>
@@ -196,10 +203,13 @@
                             <div class="main-lxfs-b">手机：</div><?php echo ($contentDate["phone"]); ?>
                         </div>
                         <div class="main-lxfs-ct">
-                            <div class="main-lxfs-b">QQ:</div><?php echo ($contentDate["qq"]); ?>
+                            <div class="main-lxfs-b">电话:</div><?php echo ($contentDate["qq"]); ?>
                         </div>
                         <div class="main-lxfs-ct">
-                            <div class="main-lxfs-b">微信：</div><?php echo ($contentDate["wetch"]); ?>
+                            <div class="main-lxfs-b">传真：</div><?php echo ($contentDate["wetch"]); ?>
+                        </div>
+                        <div class="main-lxfs-ct">
+                            <div class="main-lxfs-b">经理：</div><?php echo ($contentDate["name"]); ?>
                         </div>
                         <div class="main-lxfs-ct">
                             <div class="main-lxfs-b">地址：</div><?php echo ($contentDate["address"]); ?>

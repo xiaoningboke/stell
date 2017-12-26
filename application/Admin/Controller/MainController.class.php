@@ -217,7 +217,7 @@ class MainController extends Common {
         $price=$_POST[price];
         $time=$_POST[time];
         $info=$_POST[info];
-    	//var_dump($lianxifangshi);
+    	
         $s=$product->editProduct($id,$title,$caizhi, $gangchang,$lianxiren,$lianxifangshi,$price,$time,$img,$info);
         if($s>0){
           $this->success('更新成功',U('Admin/main/product'));
@@ -280,15 +280,16 @@ class MainController extends Common {
      * @return [type]
      */
     public function addartidecon(){
-        $path="./public/product/img/cpzh/";
-        $img=$this->upload($path);
+        $path="./public/information/img/tp/";
+        $image=$this->upload($path);
+        //var_dump($image);
         $title=$_POST[title];
         $time=$_POST[time];
         $zuozhe=$_POST[zuozhe];
         $content=$_POST[info];
         $kind=$_POST[kind];
         $product = new ArtideModel();
-        $s=$product->addartidecon($title,$time, $zuozhe,$content,$img,$kind);
+        $s=$product->addartidecon($title,$time, $zuozhe,$content,$image,$kind);
         if($s>0){
           $this->success('添加成功',U('Admin/main/artide'));
         }
@@ -577,6 +578,7 @@ class MainController extends Common {
      $upload->autoSub = false;
                 //不使用子目录保存上传文件，即上传到指定的文件夹
      $info = $upload->upload();
+     //var_dump($info);
      return $info[photo][savename];
  }
     /**

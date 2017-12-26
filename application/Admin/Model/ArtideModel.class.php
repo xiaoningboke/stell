@@ -16,14 +16,15 @@ class ArtideModel extends Model {
      * 添加文章
      * @return [type] [description]
      */
-    public function addartidecon($title,$time, $zuozhe,$content,$img,$kind){
+    public function addartidecon($title,$time, $zuozhe,$content,$image,$kind){
       $artide = M("Artide");
       $data['title'] = $title;
       $data['time'] = $time;
       $data['material'] = $material;
       $data['zuozhe'] = $zuozhe;
       $data['content'] = $content;
-      $data['image'] = $img;
+      //var_dump($image);
+      $data['image'] = $image;
       $data['kind']=$kind;
       $s=$artide->add($data);
       return $s;
