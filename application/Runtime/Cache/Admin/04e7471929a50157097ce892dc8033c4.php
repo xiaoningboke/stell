@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/stell/Public/qq/css/fengye.css">
+    <link rel="stylesheet" type="text/css" href="/Public/qq/css/fengye.css">
 </head>
 <body>
 <div class="container">

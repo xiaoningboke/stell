@@ -2,25 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo ($title); ?></title>
-    <link rel="stylesheet" type="text/css" href="/stell/Public/head.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/footer.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/chushihua.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+    <title><?php echo ($title); ?>-<?php echo ($seoData["gsname"]); ?></title>
+    <link rel="stylesheet" type="text/css" href="/Public/head.css">
+    <link rel="stylesheet" type="text/css" href="/Public/footer.css">
+    <link rel="stylesheet" type="text/css" href="/Public/chushihua.css">
+    <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
 <!-- 客服 -->
-	<link rel="stylesheet" type="text/css" href="/stell/Public/qq/css/style.css">
-	<script type="text/javascript" src="/stell/Public/qq/js/jquery-1.8.3.min"></script>
+	<link rel="stylesheet" type="text/css" href="/Public/qq/css/style.css">
+	<script type="text/javascript" src="/Public/qq/js/jquery-1.8.3.min"></script>
+	<!-- SEO -->
+	<meta name="description" content="<?php echo ($seoData["description"]); ?>" />
+	<meta name="keywords" content="<?php echo ($seoData["keywords"]); ?>" />
+	<meta name="generator" content="千行创想网络" />
+	<meta name="template" content="Zero" />
 
 
 
 
-        <link rel="stylesheet" href="/stell/Public/product/css/index.css">
+        <link rel="stylesheet" href="/Public/product/css/index.css">
         </head>
         <body>
         <div id="content">
         	<div class="header">
                 <div class="header-left">
-                    <img src="/stell/Public/image/qwdfbnmjytr7.jpg">
+                    <img src="/Public/image/qwdfbnmjytr7.png">
                 </div>
                 <div class="header-right">
                     <ul class="header-right-ul">
@@ -56,7 +61,7 @@
             </div>
 
             <div class="main">
-            <div class="main-img"><img src="/stell/Public/image/qwdfbnmjytr3.jpg"></div>
+            <div class="main-img"><img src="/Public/image/qwdfbnmjytr3.png"></div>
             <div class="main-big">
             <?php if(is_array($list)): foreach($list as $key=>$vo): ?><div class="main-pro">
                 <input type="hidden" value="<?php echo ($vo["id"]); ?>">
@@ -128,7 +133,7 @@
 <!-- 客服 -->
 
 
-        <script src="/stell/Public/layui/layui.js" charset="utf-8"></script>
+        <script src="/Public/layui/layui.js" charset="utf-8"></script>
 
 
 </body>

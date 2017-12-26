@@ -23,4 +23,12 @@ public function secpro($id){
         //var_dump($contectData);
         return $contectData;
     }
+    /**
+    *随机查询10条数据
+    */
+    public function randFind(){
+    	$con = M('Artide');
+    	$randData = $con->order('rand()')->limit(10)->select();
+        return $randData;
+    }
 }

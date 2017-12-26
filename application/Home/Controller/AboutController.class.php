@@ -18,6 +18,8 @@ class AboutController extends Common {
 
        $secphone = $this->secphone();
        $this->assign('secphone',$secphone);
+        $seoData = $this->findSeo();
+       $this->assign('seoData',$seoData);
 
       $this->display();
     }

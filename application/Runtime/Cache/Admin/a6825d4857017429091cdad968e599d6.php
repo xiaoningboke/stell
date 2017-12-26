@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>修改密码</title>
-    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
 
 
 </body>
- <script src="/stell/Public/layui/layui.js"></script>
+ <script src="/Public/layui/layui.js"></script>
  <script>
 layui.use(['form', 'layedit', 'laydate'], function(){
   var form = layui.form

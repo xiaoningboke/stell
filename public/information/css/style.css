@@ -14,7 +14,7 @@ body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,button,input,textarea,p,span,th,td
     -ms-transition: all 0.30s ease-in-out;
 }
 
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+article,aside,details,figcaption,figure,hgroup,main,nav,section,summary {
     display: block;
 }
 
@@ -214,8 +214,7 @@ body,input,button,textarea,select {
     }
 }
 
-.header {
-}
+
 
 .header-topbar {
     margin: 10px 0px 5px;

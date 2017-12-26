@@ -8,7 +8,7 @@ class GoodsModel extends Model {
    */
     public function resGoods(){
             $goods = M('Goods');
-            $goodsDate = $goods->select();
+            $goodsDate = $goods->order('id DESC')->select();
             //var_dump($goodsDate);
             return $goodsDate;
         }

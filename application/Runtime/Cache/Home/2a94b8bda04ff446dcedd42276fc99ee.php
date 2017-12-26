@@ -2,27 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo ($title); ?></title>
-    <link rel="stylesheet" type="text/css" href="/stell/Public/head.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/footer.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/chushihua.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+    <title><?php echo ($title); ?>-<?php echo ($seoData["gsname"]); ?></title>
+    <link rel="stylesheet" type="text/css" href="/Public/head.css">
+    <link rel="stylesheet" type="text/css" href="/Public/footer.css">
+    <link rel="stylesheet" type="text/css" href="/Public/chushihua.css">
+    <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
 <!-- 客服 -->
-	<link rel="stylesheet" type="text/css" href="/stell/Public/qq/css/style.css">
-	<script type="text/javascript" src="/stell/Public/qq/js/jquery-1.8.3.min"></script>
+	<link rel="stylesheet" type="text/css" href="/Public/qq/css/style.css">
+	<script type="text/javascript" src="/Public/qq/js/jquery-1.8.3.min"></script>
+	<!-- SEO -->
+	<meta name="description" content="<?php echo ($seoData["description"]); ?>" />
+	<meta name="keywords" content="<?php echo ($seoData["keywords"]); ?>" />
+	<meta name="generator" content="千行创想网络" />
+	<meta name="template" content="Zero" />
 
 
 
 
-        <link rel="stylesheet" href="/stell/Public/index/css/index.css">
-        <link rel="stylesheet" href="/stell/Public/layui/css/layui.css">
-        <script type="text/javascript" src="/stell/Public/index/js/biaogegundong.js"></script>
+        <link rel="stylesheet" href="/Public/index/css/index.css">
+        <link rel="stylesheet" href="/Public/layui/css/layui.css">
+        <script type="text/javascript" src="/Public/index/js/biaogegundong.js"></script>
         </head>
         <body>
         <div id="content">
             <div class="header">
                 <div class="header-left">
-                    <img src="/stell/Public/image/qwdfbnmjytr7.jpg">
+                    <img src="/Public/image/qwdfbnmjytr7.png">
                 </div>
                 <div class="header-right">
                     <ul class="header-right-ul">
@@ -58,7 +63,7 @@
             </div>
 
             <div class="main">
-                <button data-method="offset" data-type="auto" id="leftbox" class="leftbox" data-type="auto" onclick="OpenDiv()"><img src="/stell/Public/image/r-number.png" />
+                <button data-method="offset" data-type="auto" id="leftbox" class="leftbox" data-type="auto" onclick="OpenDiv()"><img src="/Public/image/r-number.png" />
                 <p>重量计算器</p>
                 </button>
                  <div id="div1">
@@ -70,12 +75,11 @@
                     {
                         var t1 = document.forms[0].Data.value;
                         var t2 = document.forms[0].Data2.value;
-                        var t3 = document.forms[0].Data3.value ;
                         var t4 = document.forms[0].copy.value ;
 
-                    if(t1!="" && t2!=""&& t3!=""){
+                    if(t1!="" && t2!=""){
 
-                    document.getElementById("copy").value =( parseInt(t1) - parseInt(t2)) * parseInt(t3)*0.02466;
+                    document.getElementById("copy").value =(( parseInt(t1) - parseInt(t2)) * parseInt(t2)*0.02466).toFixed(2);
                     }
                     else {document.getElementById("copy").value = "";}
                     }
@@ -95,15 +99,9 @@
                             </div>
                           </div>
                            <div class="layui-form-item">
-                         <label class="layui-form-label">长度(M)：</label>
-                            <div class="layui-input-inline">
-                              <input lay-verify="required" placeholder="请输入长度" autocomplete="off" class="layui-input" type="text" NAME="Data3" onkeyup="enfocus()">
-                            </div>
-                          </div>
-                           <div class="layui-form-item">
                          <label class="layui-form-label">重量：</label>
                             <div class="layui-input-inline">
-                              <input lay-verify="required" placeholder="请输入长度" autocomplete="off" class="layui-input" type="text" AME="Copy" id="copy">
+                              <input lay-verify="required" placeholder="重量" autocomplete="off" class="layui-input" type="text" AME="Copy" id="copy">
                             </div>
                           </div>
                       </form>
@@ -144,17 +142,17 @@
                 <div class="main-center">
                 <div class="main-xianhuo">
                     <div class="main-xianhuo-top">
-                        <img src="/stell/Public/index/img/jrtitle.png">
+                        <img src="/Public/index/img/jrtitle.png">
                         <ul>
-                            <li><a href="#">读万卷书不如行万里路读万卷书不如行万里路读万卷书不如行万里路</a></li>
-                            <li><a href="#">读万卷书不如行万里路</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
                         </ul>
                     </div>
                     <div class="main-xianhuo-buttm">
                         <div class="main-xb-left">
                             <div class="main-xb-left-top">
                                 <span>现货库存</span>
-                                <div class="main-gdxhkc"><a href="#">更多现货库存<i class="layui-icon">&#xe602;</i> </a> </div>
+                                <div class="main-gdxhkc"><a href="<?php echo U('Home/Stock/index');?>">更多现货库存<i class="layui-icon">&#xe602;</i> </a> </div>
                             </div>
                             <div>
                                 <table class="table" align="center">
@@ -222,7 +220,7 @@
                                 <tr>
                                    <?php if(is_array($conDate)): foreach($conDate as $key=>$vo): ?><td align="left">
                                     <a class="a1" href="<?php echo U('Home/product/pro',array('id'=>$vo['id']));?>">
-                                      <img src="/stell/Public/index/img/cpzh/<?php echo ($vo["img"]); ?>">
+                                      <img src="/Public/product/img/cpzh/<?php echo ($vo["img"]); ?>">
                                       <br><?php echo ($vo["title"]); ?> <br>
                                       联系人：<?php echo ($vo["lianxiren"]); ?><br>
                                       联系方式：<?php echo ($vo["lianxifangshi"]); ?></a></td><?php endforeach; endif; ?>
@@ -234,7 +232,7 @@
                           </tr>
                         </table>
                       </div>
-                      <script type="text/javascript" src="/stell/Public/index/js/seamless.js"></script>
+                      <script type="text/javascript" src="/Public/index/js/seamless.js"></script>
                     <!--无缝滚动-->
                 </div>
             </div>
@@ -295,7 +293,7 @@
 <!-- 客服 -->
 
         </div>
-        <script src="/stell/Public/layui/layui.js" charset="utf-8"></script>
+        <script src="/Public/layui/layui.js" charset="utf-8"></script>
         <script>
            function OpenDiv(){
                  document.getElementById("div1").style.display="block";

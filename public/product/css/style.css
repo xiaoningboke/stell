@@ -191,7 +191,7 @@ body,input,button,textarea,select {
 
 @media (min-width:992px) {
     .container {
-        width: auto;
+        width: 1100px;
     }
 }
 
@@ -204,7 +204,7 @@ body,input,button,textarea,select {
 .container {
     position: relative;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1100px;
     padding: 0;
 }
 
@@ -495,7 +495,8 @@ body,input,button,textarea,select {
 }
 
 .content-wrap {
-    width: 100%;
+    margin: 0 auto;
+    width: 1100px;
     float: left;
     min-height: 1000px;
 }
@@ -1560,7 +1561,10 @@ body,input,button,textarea,select {
     font-size: 12px;
     color: #AAA;
 }
-
+.widget_hot{
+    margin-top:10px;
+    padding-top: 0px;
+}
 .widget_hot li a {
     padding: 10px 15px 10px 150px;
     color: #888;
@@ -2017,7 +2021,7 @@ body,input,button,textarea,select {
     }
 
     .sign .container {
-        width: 80%
+        width: 1100px;
     }
 
     .sign .close-link {
@@ -2515,4 +2519,9 @@ body,input,button,textarea,select {
 .readers a.item-readers strong {
     display: block;
     color: #666;
+}
+.wzimg,.wzimg img{
+    margin: 0 auto;
+    width: 1100px;
+    height: 135px;
 }

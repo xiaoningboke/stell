@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>后台管理</title>
-     <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
-    <link rel="stylesheet" href="/stell/Public/build/css/app.css" media="all">
+     <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
+    <link rel="stylesheet" href="/Public/build/css/app.css" media="all">
 </head>
 
 <body>
@@ -56,6 +56,7 @@
                             <dd><a href="javascript:;" kit-target data-options="{url:'exitimage.html',icon:'&#xe658;',title:'图片替换',id:'6'}"><i class="layui-icon">&#xe658;</i><span> 图片替换</span></a></dd>
                             <dd><a href="javascript:;" kit-target data-options="{url:'connect.html',icon:'&#xe658;',title:'友情链接',id:'7'}"><i class="layui-icon">&#xe658;</i><span> 友情链接</span></a></dd>
                             <dd><a href="javascript:;" kit-target data-options="{url:'infor.html',icon:'&#xe658;',title:'更改密码',id:'7'}"><i class="layui-icon">&#xe658;</i><span> 更改密码</span></a></dd>
+                            <dd><a href="javascript:;" kit-target data-options="{url:'seo.html',icon:'&#xe658;',title:'SEO设置',id:'8'}"><i class="layui-icon">&#xe658;</i><span> SEO设置</span></a></dd>
                         
                         </dl>
                     </li>
@@ -79,11 +80,11 @@
         var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
         document.write(unescape("%3Cspan id='cnzz_stat_icon_1264021086'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1264021086%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
     </script>
-    <script src="/stell/Public/layui/layui.js"></script>
+    <script src="/Public/layui/layui.js"></script>
     <script>
         var message;
         layui.config({
-            base: '/stell/Public/build/js/'
+            base: '/Public/build/js/'
         }).use(['app', 'message'], function() {
             var app = layui.app,
                 $ = layui.jquery,

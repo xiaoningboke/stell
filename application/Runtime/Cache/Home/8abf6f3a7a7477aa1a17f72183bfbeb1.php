@@ -2,23 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo ($title); ?></title>
-    <link rel="stylesheet" type="text/css" href="/stell/Public/head.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/footer.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/chushihua.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+    <title><?php echo ($title); ?>-<?php echo ($seoData["gsname"]); ?></title>
+    <link rel="stylesheet" type="text/css" href="/Public/head.css">
+    <link rel="stylesheet" type="text/css" href="/Public/footer.css">
+    <link rel="stylesheet" type="text/css" href="/Public/chushihua.css">
+    <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
+<!-- 客服 -->
+	<link rel="stylesheet" type="text/css" href="/Public/qq/css/style.css">
+	<script type="text/javascript" src="/Public/qq/js/jquery-1.8.3.min"></script>
+	<!-- SEO -->
+	<meta name="description" content="<?php echo ($seoData["description"]); ?>" />
+	<meta name="keywords" content="<?php echo ($seoData["keywords"]); ?>" />
+	<meta name="generator" content="千行创想网络" />
+	<meta name="template" content="Zero" />
 
 
 
 
-
-        <link rel="stylesheet" href="/stell/Public/stock/css/index.css">
+        <link rel="stylesheet" href="/Public/stock/css/index.css">
         </head>
         <body>
         <div id="content">
             <div class="header">
                 <div class="header-left">
-                    <img src="/stell/Public/image/qwdfbnmjytr7.jpg">
+                    <img src="/Public/image/qwdfbnmjytr7.png">
                 </div>
                 <div class="header-right">
                     <ul class="header-right-ul">
@@ -54,7 +61,7 @@
             </div>
 
             <div class="main">
-              <button data-method="offset" data-type="auto" id="leftbox" class="leftbox" data-type="auto" onclick="OpenDiv()"><img src="/stell/Public/image/r-number.png" />
+              <button data-method="offset" data-type="auto" id="leftbox" class="leftbox" data-type="auto" onclick="OpenDiv()"><img src="/Public/image/r-number.png" />
                 <p>重量计算器</p>
                 </button>
                  <div id="div1">
@@ -66,12 +73,11 @@
                     {
                         var t1 = document.forms[0].Data.value;
                         var t2 = document.forms[0].Data2.value;
-                        var t3 = document.forms[0].Data3.value ;
                         var t4 = document.forms[0].copy.value ;
 
-                    if(t1!="" && t2!=""&& t3!=""){
+                    if(t1!="" && t2!=""){
 
-                    document.getElementById("copy").value =( parseInt(t1) - parseInt(t2)) * parseInt(t3)*0.02466;
+                    document.getElementById("copy").value =(( parseInt(t1) - parseInt(t2)) * parseInt(t2)*0.02466).toFixed(2);
                     }
                     else {document.getElementById("copy").value = "";}
                     }
@@ -90,16 +96,11 @@
                               <input lay-verify="required" placeholder="请输入壁厚" autocomplete="off" class="layui-input" type="text" NAME="Data2" onkeyup="enfocus()">
                             </div>
                           </div>
-                           <div class="layui-form-item">
-                         <label class="layui-form-label">长度(M)：</label>
-                            <div class="layui-input-inline">
-                              <input lay-verify="required" placeholder="请输入长度" autocomplete="off" class="layui-input" type="text" NAME="Data3" onkeyup="enfocus()">
-                            </div>
-                          </div>
+                           
                            <div class="layui-form-item">
                          <label class="layui-form-label">重量：</label>
                             <div class="layui-input-inline">
-                              <input lay-verify="required" placeholder="请输入长度" autocomplete="off" class="layui-input" type="text" AME="Copy" id="copy">
+                              <input lay-verify="required" placeholder="重量" autocomplete="off" class="layui-input" type="text" AME="Copy" id="copy">
                             </div>
                           </div>
                       </form>
@@ -107,7 +108,7 @@
                <a href="javascript:CloseDiv();">关闭</a>
         </div>
                 <div class="main-datu">
-                    <img src="/stell/Public/image/qwdfbnmjytr2.jpg">
+                    <img src="/Public/image/qwdfbnmjytr2.png">
                 </div>
                 <div class="main-sousuo">
                     <form class="layui-form" method="post" action="<?php echo U('Home/Stock/resgoods');?>">
@@ -204,28 +205,28 @@
 		</div>
 		<div class="footer-youlian">
 			<b>友情链接：</b>
-
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
-				<a href="#">千行创想网络</a>
+				<?php if(is_array($connectData)): foreach($connectData as $key=>$vo): ?><a href="<?php echo ($vo["connect"]); ?>" target="_blank"><?php echo ($vo["name"]); ?></a><?php endforeach; endif; ?>
 
 		</div>
 		<div class="footer-lxfs">
-			联系电话：0635-8889265
+			联系电话：<?php echo ($secphone["phone"]); ?>
 		</div>
 		<div class="footer-bq">
-			Copyright2016 版权所有 www.maigang123.com 麦钢网 All Rights Reserved 鲁ICP备1600614
+			Copyright2017 版权所有All Rights Reserved 鲁ICP备1600614
 		</div>
 	</div>
 </div>
+<!-- 客服 -->
+<div class="izl-rmenu">
+	<a  class="cart1" style="display: block; background-color: black;"><div class="pic1"></div></a>
+    <a class="consult" target="_blank"><div class="phone" style="display:none;"><?php echo ($secphone["phone"]); ?></div></a>    
+    <a class="cart"><div class="pic"></div></a>   
+</div>
+
+<!-- 客服 -->
 
         </div>
-        <script src="/stell/Public/layui/layui.js" charset="utf-8"></script>
+        <script src="/Public/layui/layui.js" charset="utf-8"></script>
         <script>
         layui.use(['form', 'layedit', 'laydate'], function(){
           var form = layui.form

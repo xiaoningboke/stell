@@ -1,11 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <title>产品展示</title>
-    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/fenye.css">
+    <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/Public/fenye.css">
 </head>
 
 <body>
@@ -13,7 +13,7 @@
     <a href="<?php echo U('Admin/main/addproduct');?>" class="layui-btn layui-btn-warm">添加</a>
                    <table class="layui-table">
                         <colgroup>
-                          <col width="100">
+                          <col width="400">
                           <col width="100">
                           <col width="100">
                           <col>
@@ -50,7 +50,7 @@
 
 
 </body>
- <script src="/stell/Public/layui/layui.js"></script>
+ <script src="/Public/layui/layui.js"></script>
  <script>
 layui.use(['form', 'layedit', 'laydate'], function(){
   var form = layui.form

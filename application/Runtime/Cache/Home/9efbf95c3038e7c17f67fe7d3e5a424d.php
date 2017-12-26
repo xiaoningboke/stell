@@ -2,35 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo ($title); ?></title>
-    <link rel="stylesheet" type="text/css" href="/stell/Public/head.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/footer.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/chushihua.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
+    <title><?php echo ($title); ?>-<?php echo ($seoData["gsname"]); ?></title>
+    <link rel="stylesheet" type="text/css" href="/Public/head.css">
+    <link rel="stylesheet" type="text/css" href="/Public/footer.css">
+    <link rel="stylesheet" type="text/css" href="/Public/chushihua.css">
+    <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
 <!-- 客服 -->
-	<link rel="stylesheet" type="text/css" href="/stell/Public/qq/css/lrtk.css">
-	<script type="text/javascript" src="/stell/Public/qq/js/jquery-1.8.3.min"></script>
+	<link rel="stylesheet" type="text/css" href="/Public/qq/css/style.css">
+	<script type="text/javascript" src="/Public/qq/js/jquery-1.8.3.min"></script>
+	<!-- SEO -->
+	<meta name="description" content="<?php echo ($seoData["description"]); ?>" />
+	<meta name="keywords" content="<?php echo ($seoData["keywords"]); ?>" />
+	<meta name="generator" content="千行创想网络" />
+	<meta name="template" content="Zero" />
 
 
 
 
 <meta name="keywords" content="">
 <meta name="description" content="">
-<link rel="stylesheet" type="text/css" href="/stell/Public/page/css/nprogress.css">
-<link rel="stylesheet" type="text/css" href="/stell/Public/page/css/style.css">
-<link rel="stylesheet" type="text/css" href="/stell/Public/page/css/font-awesome.min.css">
-<link rel="apple-touch-icon-precomposed" href="/stell/Public/page/images/icon.png">
-<link rel="shortcut icon" href="/stell/Public/page/images/favicon.ico">
-<script src="/stell/Public/page/js/jquery-2.1.4.min.js"></script>
-<script src="/stell/Public/page/js/nprogress.js"></script>
-<script src="/stell/Public/page/js/jquery.lazyload.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/page/css/nprogress.css">
+<link rel="stylesheet" type="text/css" href="/Public/page/css/style.css">
+<link rel="stylesheet" type="text/css" href="/Public/page/css/font-awesome.min.css">
+<link rel="apple-touch-icon-precomposed" href="/Public/page/images/icon.png">
+<link rel="shortcut icon" href="/Public/page/images/favicon.ico">
+<script src="/Public/page/js/jquery-2.1.4.min.js"></script>
+<script src="/Public/page/js/nprogress.js"></script>
+<script src="/Public/page/js/jquery.lazyload.min.js"></script>
 
 </head>
 <body class="user-select single">
 <header class="header">
 <div class="header">
                 <div class="header-left">
-                    <img src="/stell/Public/image/qwdfbnmjytr7.jpg">
+                    <img src="/Public/image/qwdfbnmjytr7.png">
                 </div>
                 <div class="header-right">
                     <ul class="header-right-ul">
@@ -116,7 +121,7 @@
 	  <h3>最新文章</h3>
 	  <ul>
 <?php if(is_array($list)): foreach($list as $key=>$vo): ?><li><a title="<?php echo ($vo["title"]); ?>" href="<?php echo U('Home/product/pro',array('id'=>$vo['id']));?>" ><span class="thumbnail">
-<img class="thumb" data-original="/stell/Public/product/img/cpzh/<?php echo ($vo["img"]); ?>" src="/stell/Public/product/img/cpzh/<?php echo ($vo["img"]); ?>" alt="<?php echo ($vo["title"]); ?>"  style="display: block;">
+<img class="thumb" data-original="/Public/product/img/cpzh/<?php echo ($vo["img"]); ?>" src="/Public/product/img/cpzh/<?php echo ($vo["img"]); ?>" alt="<?php echo ($vo["title"]); ?>"  style="display: block;">
 </span><span class="text"><?php echo ($vo["title"]); ?></span><span class="muted"><i class="glyphicon glyphicon-time"></i>
 <?php echo ($vo["time"]); ?>
 </span><span class="muted"><i class="glyphicon glyphicon-eye-open"></i>**</span></a></li><?php endforeach; endif; ?>
@@ -165,19 +170,20 @@
 
 		</div>
 		<div class="footer-lxfs">
-			联系电话：0635-8889265
+			联系电话：<?php echo ($secphone["phone"]); ?>
 		</div>
 		<div class="footer-bq">
-			Copyright2016 版权所有 www.maigang123.com 麦钢网 All Rights Reserved 鲁ICP备1600614
+			Copyright2017 版权所有All Rights Reserved 鲁ICP备1600614
 		</div>
 	</div>
 </div>
 <!-- 客服 -->
-<ul id="side-bar" class="side-pannel side-bar">
-  <a href="javascript:;" class="gotop" style="display:none;"><s class="g-icon-top"></s></a>
-  <a href="javascript:;" class="text"><s class="g-icon-qq1"></s><i></i></a>
-  <a href="javascript:;" class="qr"><s class="g-icon-qr1"></s><i></i></a>
-</ul>
+<div class="izl-rmenu">
+	<a  class="cart1" style="display: block; background-color: black;"><div class="pic1"></div></a>
+    <a class="consult" target="_blank"><div class="phone" style="display:none;"><?php echo ($secphone["phone"]); ?></div></a>    
+    <a class="cart"><div class="pic"></div></a>   
+</div>
+
 <!-- 客服 -->
 
 <script src="js/bootstrap.min.js"></script>

@@ -8,6 +8,7 @@ use  Admin\Model\ArtideModel;
 use  Admin\Model\ContactModel;
 use  Admin\Model\ConnectModel;
 use  Admin\Model\UserModel;
+use  Admin\Model\SeoModel;
 
 use Admin\Common\Common;
 class MainController extends Common {
@@ -33,7 +34,7 @@ class MainController extends Common {
             }else{
                 $p=$_GET['p'];
             }
-                 $list = $User->order('id')->page($p.',10')->select();
+                 $list = $User->order('id DESC')->page($p.',10')->select();
 
             $this->assign('list',$list);
             $count = $User->count();
@@ -108,12 +109,12 @@ class MainController extends Common {
      */
     public function addnewproducts(){
         $varieties=$_POST[varieties];
-         $material=$_POST[material];
-         $specifications=$_POST[waijing].'*'.$_POST[bihou];
-         $field=$_POST[field];
-         $weight=$_POST[weight];
-         $price=$_POST[price];
-         $contact=$_POST[contact];
+        $material=$_POST[material];
+        $specifications=$_POST[waijing].'*'.$_POST[bihou];
+        $field=$_POST[field];
+        $weight=$_POST[weight];
+        $price=$_POST[price];
+        $contact=$_POST[contact];
         $warehouse=$_POST[warehouse];
         $supplier=$_POST[supplier];
         $time=$_POST[time];
@@ -139,7 +140,7 @@ class MainController extends Common {
             }else{
                 $p=$_GET['p'];
             }
-                 $list = $User->order('id')->page($p.',10')->select();
+                 $list = $User->order('id DESC')->page($p.',10')->select();
 
             $this->assign('list',$list);
             $count = $User->count();
@@ -195,14 +196,15 @@ class MainController extends Common {
 
     }
   /**
-   * 接受修改产品展示信息
+   * 接受修改产品展示信息  
    * @return [type] [description]
    */
     public function exitsproducts(){
-
+    	//var_dump($_POST[id]);
         $product = new ProductModel();
         $path="./public/product/img/cpzh/";
         $img=$this->upload($path);
+        //var_dump($img);
          if($img==null){
             $img=$_POST[image];
         }
@@ -211,11 +213,11 @@ class MainController extends Common {
         $caizhi=$_POST[caizhi];
         $gangchang=$_POST[gangchang];
         $lianxiren=$_POST[lianxiren];
-        $lisnxifangshi=$_POST[lisnxifangshi];
+        $lianxifangshi=$_POST[lianxifangshi];
         $price=$_POST[price];
         $time=$_POST[time];
         $info=$_POST[info];
-    
+    	//var_dump($lianxifangshi);
         $s=$product->editProduct($id,$title,$caizhi, $gangchang,$lianxiren,$lianxifangshi,$price,$time,$img,$info);
         if($s>0){
           $this->success('更新成功',U('Admin/main/product'));
@@ -257,7 +259,7 @@ class MainController extends Common {
             }else{
                 $p=$_GET['p'];
             }
-                 $list = $User->order('id')->page($p.',10')->select();
+                 $list = $User->order('id DESC')->page($p.',10')->select();
 
             $this->assign('list',$list);
             $count = $User->count();
@@ -284,7 +286,6 @@ class MainController extends Common {
         $time=$_POST[time];
         $zuozhe=$_POST[zuozhe];
         $content=$_POST[info];
-        $img=$_POST[img];
         $kind=$_POST[kind];
         $product = new ArtideModel();
         $s=$product->addartidecon($title,$time, $zuozhe,$content,$img,$kind);
@@ -427,7 +428,7 @@ class MainController extends Common {
     public function renameFile($oldFN,$path){
         for($i=0;$i<count($oldFN);$i++){
              
-             $newName = "qwdfbnmjytr".($i+1).".jpg";//新的名字
+             $newName = "qwdfbnmjytr".($i+1).".png";//新的名字
              rename($path.$oldFN[$i],$path.$newName);//重命名
              
          }
@@ -530,6 +531,27 @@ class MainController extends Common {
         }else{
                 $this->error('原密码错误',U('Admin/main/infor'));
 
+        }
+     }
+     //////////////////////////////////////////////////////////////////
+     //SEO
+     public function seo(){
+     	$seo = new SeoModel();
+     	$seoData = $seo->findSeo();
+     	$this->assign('data',$seoData);
+     	$this->display();
+     }
+     public function exitSeo(){
+        $gsname=$_POST[gsname];
+        $keywords=$_POST[keywords];
+        $description=$_POST[description];
+        $pr = new SeoModel();
+        $s=$pr->exitSeo($gsname,$keywords,$description);
+        if($s>0){
+          $this->success('更新成功',U('Admin/main/seo'));
+        }
+        else{
+            $this->error('没有更新',U('Admin/main/seo'));
         }
      }
 ///////////////////////////////////////////////////////////////////////

@@ -1,0 +1,130 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>现货产品</title>
+    <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
+</head>
+
+<body>
+<form method="post" action="<?php echo U('Admin/main/exitproducts',array('id'=>$data['id']));?>" enctype="multipart/form-data">
+<input type="hidden" value="<?php echo ($data["id"]); ?>" name="id">
+<div class="layui-form-item" style="padding-top: 50px">
+<div class="layui-inline">
+    <label class="layui-form-label">品种</label>
+    <div class="layui-input-inline">
+      <input name="varieties" lay-verify="required" placeholder="请输入品种" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["varieties"]); ?>">
+    </div>
+  </div>
+
+<div class="layui-inline">
+    <label class="layui-form-label">材质</label>
+    <div class="layui-input-inline">
+      <input  name="material" lay-verify="required" placeholder="请输入材质" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["material"]); ?>">
+    </div>
+  </div>
+  </div>
+
+
+<div class="layui-form-item">
+<div class="layui-inline">
+    <label class="layui-form-label">规格</label>
+    <div class="layui-input-inline">
+      <input name="specifications" lay-verify="required" placeholder="请输入规格" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["specifications"]); ?>">
+    </div>
+  </div>
+  <div class="layui-inline">
+    <label class="layui-form-label">钢厂</label>
+    <div class="layui-input-inline">
+      <input name="field" lay-verify="required" placeholder="请输入钢厂" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["field"]); ?>">
+    </div>
+  </div>
+  </div>
+
+
+<div class="layui-form-item">
+
+
+<div class="layui-inline">
+    <label class="layui-form-label">重量</label>
+    <div class="layui-input-inline">
+      <input name="weight" lay-verify="required" placeholder="请输入重量" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["weight"]); ?>">
+    </div>
+  </div>
+  <div class="layui-inline">
+    <label class="layui-form-label">价格</label>
+    <div class="layui-input-inline">
+      <input name="price" lay-verify="required" placeholder="请输入价格" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["price"]); ?>">
+    </div>
+  </div>
+  </div>
+
+<div class="layui-form-item">
+
+
+<div class="layui-inline">
+    <label class="layui-form-label">联系方式</label>
+    <div class="layui-input-inline">
+      <input name="contact" lay-verify="contact" placeholder="请输入联系方式" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["contact"]); ?>">
+    </div>
+  </div>
+  <div class="layui-inline">
+    <label class="layui-form-label">仓库区</label>
+    <div class="layui-input-inline">
+      <input name="warehouse" lay-verify="required" placeholder="请输入仓库区" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["warehouse"]); ?>">
+    </div>
+  </div>
+  </div>
+
+
+  <div class="layui-form-item">
+
+
+<div class="layui-inline">
+    <label class="layui-form-label">供应商</label>
+    <div class="layui-input-inline">
+      <input name="supplier" lay-verify="required" placeholder="请输入供应商" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["supplier"]); ?>">
+    </div>
+  </div>
+  <div class="layui-inline">
+    <label class="layui-form-label">发布时间</label>
+    <div class="layui-input-inline">
+        <input name="time" id="date" lay-verify="date" placeholder="年-月-日" autocomplete="off" class="layui-input" type="text" value="<?php echo ($data["time"]); ?>">
+      </div>
+  </div>
+  </div>
+ <div class="layui-form-item">
+
+
+<div class="layui-inline">
+ <label class="layui-form-label"></label>
+    <div class="layui-input-inline">
+      <input class="layui-btn layui-btn-normal"  type="submit" value="提交">
+    </div>
+  </div>
+  </div>
+
+</form>
+
+
+
+</body>
+ <script src="/Public/layui/layui.js"></script>
+ <script>
+layui.use(['form', 'layedit', 'laydate'], function(){
+  var form = layui.form
+  ,layer = layui.layer
+  ,layedit = layui.layedit
+  ,laydate = layui.laydate;
+
+  //日期
+  laydate.render({
+    elem: '#date'
+  });
+  laydate.render({
+    elem: '#date1'
+  });
+});
+</script>
+</html>

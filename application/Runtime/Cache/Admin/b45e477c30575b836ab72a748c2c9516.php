@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>文章列表</title>
-    <link rel="stylesheet" type="text/css" href="/stell/Public/layui/css/layui.css">
-    <link rel="stylesheet" type="text/css" href="/stell/Public/fenye.css">
+    <link rel="stylesheet" type="text/css" href="/Public/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/Public/fenye.css">
 </head>
 
 <body>
@@ -45,7 +45,7 @@
 
 
 </body>
- <script src="/stell/Public/layui/layui.js"></script>
+ <script src="/Public/layui/layui.js"></script>
  <script>
 layui.use(['form', 'layedit', 'laydate'], function(){
   var form = layui.form

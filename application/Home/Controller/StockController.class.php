@@ -14,7 +14,8 @@ class StockController extends Common {
         $goodsDate=$user->resGoods();
          $this->assign('title',"找现货");
          $this->assign('materData',$materData);
-
+ 		$seoData = $this->findSeo();
+       $this->assign('seoData',$seoData);
 
 
         $User = M('Goods');
@@ -23,7 +24,7 @@ class StockController extends Common {
         }else{
             $p=$_GET['p'];
         }
-             $list = $User->order('id')->page($p.',20')->select();
+             $list = $User->order('id DESC')->page($p.',20')->select();
 
         $this->assign('list',$list);
         $count = $User->count();
@@ -45,7 +46,15 @@ class StockController extends Common {
         $goodsDate=$user->resGoods();
          $this->assign('title',"找现货");
          $this->assign('materData',$materData);
+		$connectData = $this->Connect();
+        $this->assign('connectData',$connectData);
 
+
+        $secphone = $this->secphone();
+       $this->assign('secphone',$secphone);
+       
+        $seoData = $this->findSeo();
+       $this->assign('seoData',$seoData);
          $specifications1=$_POST[specifications1];
          $specifications2=$_POST[specifications2];
          $specifications=$specifications1.'*'.$specifications2;
@@ -53,7 +62,7 @@ class StockController extends Common {
          $s1 = strlen($material);
          $s2 = strlen($specifications);
          if($s1==0&&$s2!=1){
-            var_dump("ppp");
+            //var_dump("ppp");
             $map['specifications'] = $specifications;
          }else if($s1!=0&&$s2==1){
             $map['material'] = $material;

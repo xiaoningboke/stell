@@ -14,7 +14,7 @@ class InformationController extends Common {
             }else{
                 $p=$_GET['p'];
             }
-                 $list = $User->where("kind=1")->order('id')->page($p.',10')->select();
+                 $list = $User->where("kind=1")->order('id DESC')->page($p.',10')->select();
 
             $this->assign('list',$list);
             $count = $User->count();
@@ -25,8 +25,19 @@ class InformationController extends Common {
             $connectData = $this->Connect();
             $this->assign('connectData',$connectData);
 
-             $secphone = $this->secphone();
-       $this->assign('secphone',$secphone);
+            $secphone = $this->secphone();
+	         $this->assign('secphone',$secphone);
+		      $seoData = $this->findSeo();
+	       $this->assign('seoData',$seoData);
+	       $pro = new ArtideModel();
+
+         $randData=$pro->randFind();
+         $this->assign('randData',$randData);
+         //var_dump($randData);
+	       $connectData = $this->Connect();
+        $this->assign('connectData',$connectData);
+
+
 
             $this->display();
 
@@ -52,6 +63,13 @@ class InformationController extends Common {
         $Page = new \Think\Page($count,5);
         $show = $Page->show();
 
+             $secphone = $this->secphone();
+	       $this->assign('secphone',$secphone);
+		 $seoData = $this->findSeo();
+	       $this->assign('seoData',$seoData);
+	       
+	       $connectData = $this->Connect();
+        $this->assign('connectData',$connectData);
 
         $this->display('show');
     }

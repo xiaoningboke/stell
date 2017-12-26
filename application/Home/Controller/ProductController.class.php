@@ -18,7 +18,7 @@ class ProductController extends Common {
         }else{
             $p=$_GET['p'];
         }
-             $list = $User->order('id')->page($p.',15')->select();
+             $list = $User->order('id DESC')->page($p.',15')->select();
 
         $this->assign('list',$list);
         $count = $User->count();
@@ -31,7 +31,8 @@ class ProductController extends Common {
 
          $secphone = $this->secphone();
        $this->assign('secphone',$secphone);
-       
+        $seoData = $this->findSeo();
+       $this->assign('seoData',$seoData);
         $this->display();
 
     }

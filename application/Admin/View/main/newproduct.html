@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,7 +10,7 @@
 
 <body>
 <div class="layui-form" style="margin-top: 20px">
-    <a href="{:U('Admin/index/addnewproduct')}" class="layui-btn layui-btn-warm">添加</a>
+    <a href="{:U('Admin/main/addnewproduct')}" class="layui-btn layui-btn-warm">添加</a>
                    <table class="layui-table">
                         <colgroup>
                           <col width="100">
@@ -44,7 +44,7 @@
                             <td>{$vo.contact}</td>
                             <td>{$vo.warehouse}</td>
                             <td>{$vo.time}</td>
-                            <td><a href="{:U('Admin/index/exitproduct',array('id'=>$vo['id']))}">修改</a> | <a href="{:U('Admin/index/delproduct',array('id'=>$vo['id']))}">删除</a></td>
+                            <td><a href="{:U('Admin/main/exitproduct',array('id'=>$vo['id']))}">修改</a> | <a href="{:U('Admin/main/delproduct',array('id'=>$vo['id']))}">删除</a></td>
 
                           </tr>
                           </foreach>

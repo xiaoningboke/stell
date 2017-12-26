@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -17,7 +17,7 @@
       UE.getEditor('info', {  
       initialFrameHeight: 500,  
       initialFrameWidth: 700,  
-      serverUrl: "{:U(MODULE_NAME.'/Index/save_info')}"  
+      serverUrl: "{:U(MODULE_NAME.'/Main/save_info')}"  
     });  
   });  
       
@@ -27,7 +27,7 @@
 <body class="layui-col-xs8">
 <form method="post" action="{:U('Admin/main/exitsproducts')}" enctype="multipart/form-data">
 <input type="hidden" name="id" value="{$data.id}">
-<input type="img" name="id" value="{$data.img}">
+<input type="hidden" name="img" value="{$data.img}">
 
 <div class="layui-form-item" style="padding-top: 50px">
 <div class="layui-form-item">
@@ -73,11 +73,12 @@
   </div>
 <div class="layui-form-item">
 <div class="layui-inline">
-    <label class="layui-form-label">价格</label>
+    <label class="layui-form-label">发布时间</label>
     <div class="layui-input-inline">
-      <input name="price" lay-verify="required" placeholder="请输入价格" autocomplete="off" class="layui-input" type="text" value="{$data.price}">
-    </div>
+        <input name="time" id="date" lay-verify="date" placeholder="年-月-日" autocomplete="off" class="layui-input" type="text" value="{$data.time}">
+      </div>
   </div>
+
 
 <div class="layui-inline">
     <label class="layui-form-label">规格</label>
@@ -88,17 +89,12 @@
   </div>
 
  <div class="layui-form-item">
-<div class="layui-inline">
-    <label class="layui-form-label">发布时间</label>
-    <div class="layui-input-inline">
-        <input name="time" id="date" lay-verify="date" placeholder="年-月-日" autocomplete="off" class="layui-input" type="text" value="{$data.time}">
-      </div>
-  </div>
+
 
 <div class="layui-inline">
  <label class="layui-form-label">图片</label>
     <div class="layui-input-inline">
-      <input class="layui-input"  type="file" value="">
+      <input class="layui-input"  type="file" value="" name="photo">
     </div>
   </div>
   </div>

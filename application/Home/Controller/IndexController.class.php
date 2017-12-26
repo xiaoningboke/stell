@@ -25,6 +25,8 @@ class IndexController extends Common {
         $secphone = $this->secphone();
        $this->assign('secphone',$secphone);
        
+        $seoData = $this->findSeo();
+       $this->assign('seoData',$seoData);
 
           $this->assign('title',"首页");
           $this->assign('goodsDate',$goodsDate);

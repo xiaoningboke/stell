@@ -19,12 +19,11 @@
                     {
                         var t1 = document.forms[0].Data.value;
                         var t2 = document.forms[0].Data2.value;
-                        var t3 = document.forms[0].Data3.value ;
                         var t4 = document.forms[0].copy.value ;
 
-                    if(t1!="" && t2!=""&& t3!=""){
+                    if(t1!="" && t2!=""){
 
-                    document.getElementById("copy").value =( parseInt(t1) - parseInt(t2)) * parseInt(t3)*0.02466;
+                    document.getElementById("copy").value =(( parseInt(t1) - parseInt(t2)) * parseInt(t2)*0.02466).toFixed(2);
                     }
                     else {document.getElementById("copy").value = "";}
                     }
@@ -44,15 +43,9 @@
                             </div>
                           </div>
                            <div class="layui-form-item">
-                         <label class="layui-form-label">长度(M)：</label>
-                            <div class="layui-input-inline">
-                              <input lay-verify="required" placeholder="请输入长度" autocomplete="off" class="layui-input" type="text" NAME="Data3" onkeyup="enfocus()">
-                            </div>
-                          </div>
-                           <div class="layui-form-item">
                          <label class="layui-form-label">重量：</label>
                             <div class="layui-input-inline">
-                              <input lay-verify="required" placeholder="请输入长度" autocomplete="off" class="layui-input" type="text" AME="Copy" id="copy">
+                              <input lay-verify="required" placeholder="重量" autocomplete="off" class="layui-input" type="text" AME="Copy" id="copy">
                             </div>
                           </div>
                       </form>
@@ -97,15 +90,15 @@
                     <div class="main-xianhuo-top">
                         <img src="__PUBLIC__/index/img/jrtitle.png">
                         <ul>
-                            <li><a href="#">读万卷书不如行万里路读万卷书不如行万里路读万卷书不如行万里路</a></li>
-                            <li><a href="#">读万卷书不如行万里路</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
                         </ul>
                     </div>
                     <div class="main-xianhuo-buttm">
                         <div class="main-xb-left">
                             <div class="main-xb-left-top">
                                 <span>现货库存</span>
-                                <div class="main-gdxhkc"><a href="#">更多现货库存<i class="layui-icon">&#xe602;</i> </a> </div>
+                                <div class="main-gdxhkc"><a href="{:U('Home/Stock/index')}">更多现货库存<i class="layui-icon">&#xe602;</i> </a> </div>
                             </div>
                             <div>
                                 <table class="table" align="center">
@@ -176,7 +169,7 @@
                                    <foreach name="conDate" item="vo" >
                                     <td align="left">
                                     <a class="a1" href="{:U('Home/product/pro',array('id'=>$vo['id']))}">
-                                      <img src="__PUBLIC__/index/img/cpzh/{$vo.img}">
+                                      <img src="__PUBLIC__/product/img/cpzh/{$vo.img}">
                                       <br>{$vo.title} <br>
                                       联系人：{$vo.lianxiren}<br>
                                       联系方式：{$vo.lianxifangshi}</a></td>

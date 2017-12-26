@@ -17,7 +17,7 @@
       UE.getEditor('info', {  
       initialFrameHeight: 500,  
       initialFrameWidth: 700,  
-      serverUrl: "{:U(MODULE_NAME.'/Index/save_info')}"  
+      serverUrl: "{:U(MODULE_NAME.'/Main/save_info')}"  
     });  
   });  
       
@@ -65,16 +65,16 @@
 <div class="layui-inline">
     <label class="layui-form-label">联系方式</label>
     <div class="layui-input-inline">
-      <input name="lisnxifangshi" lay-verify="required" placeholder="请输入联系方式" autocomplete="off" class="layui-input" type="text">
+      <input name="lianxifangshi" lay-verify="required" placeholder="请输入联系方式" autocomplete="off" class="layui-input" type="text">
     </div>
   </div>
   </div>
 <div class="layui-form-item">
 <div class="layui-inline">
-    <label class="layui-form-label">价格</label>
+    <label class="layui-form-label">发布时间</label>
     <div class="layui-input-inline">
-      <input name="price" lay-verify="required" placeholder="请输入价格" autocomplete="off" class="layui-input" type="text">
-    </div>
+        <input name="time" id="date" lay-verify="date" placeholder="年-月-日" autocomplete="off" class="layui-input" type="text">
+      </div>
   </div>
 
 <div class="layui-inline">
@@ -99,13 +99,7 @@
       <input class="layui-input"  type="file" name="photo">
     </div>
   </div>
-  <label class="layui-form-label">类型</label>
-    <div class="layui-input-inline">
-        <select name="modules" lay-verify="required" lay-search="">
-          <option value="">直接选择或搜索选择</option>
-          <option value="1">layer</option>
-        </select>
-      </div>
+
   </div>
   </div>
 

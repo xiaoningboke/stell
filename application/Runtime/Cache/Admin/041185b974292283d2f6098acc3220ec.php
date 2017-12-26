@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>后台管理</title>
-    <link rel="stylesheet" href="/stell/Public/qq/css/reset.css" />
-    <link rel="stylesheet" href="/stell/Public/qq/css/login.css" />
-        <script type="text/javascript" src="/stell/Public/qq/js/jquery.min.js"></script>
-        <script type="text/javascript" src="/stell/Public/qq/js/login.js"></script>
+    <link rel="stylesheet" href="/Public/qq/css/reset.css" />
+    <link rel="stylesheet" href="/Public/qq/css/login.css" />
+        <script type="text/javascript" src="/Public/qq/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/Public/qq/js/login.js"></script>
 </head>
 <body>
 <div class="page">
