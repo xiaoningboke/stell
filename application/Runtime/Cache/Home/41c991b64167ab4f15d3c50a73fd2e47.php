@@ -39,7 +39,7 @@
 
                     if(t1!="" && t2!="" && t3!=""){
 
-                    document.getElementById("copy").value =(( parseInt(t1) - parseInt(t2)) * parseInt(t2)*0.02466*parseInt(t3)).toFixed(2);
+                    document.getElementById("copy").value =( parseFloat(t1) - parseFloat(t2)) * parseFloat(t2)*0.02466*parseFloat(t3);
                     }
                     else {document.getElementById("copy").value = "";}
                     }
@@ -170,7 +170,18 @@
                              <td><?php echo ($vo["supplier"]); ?></td>
                             <td><?php echo ($vo["contact"]); ?></td>
                             <td><?php echo ($vo["warehouse"]); ?></td>
-                            <td><?php echo ($vo["time"]); ?></td>
+                            <td class="time"> 
+                            	<script> 
+                            		var myDate = new Date(); 
+                            		var ts = myDate.getTime();
+                            		var random = Math.random()*5+1;
+                            		myDate.setTime(ts-(random*1000*60*60*24));
+                            		var y = myDate.getFullYear();
+                            		var m = myDate.getMonth()+1;
+                            		var d = myDate.getDate();
+                            		document.write(y+"-"+m+"-"+d); 
+                            	</script>
+                            </td>
                           </tr><?php endforeach; endif; ?>
                         </tbody>
                       </table>

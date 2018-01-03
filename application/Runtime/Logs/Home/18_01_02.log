@@ -1,0 +1,570 @@
+[ 2018-01-02T00:15:12+08:00 ] 47.93.90.175 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2018-01-02T00:49:39+08:00 ] 47.97.23.199 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2018-01-02T01:11:27+08:00 ] 118.31.244.58 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-01-02T01:45:21+08:00 ] 139.162.79.87 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2018-01-02T02:15:13+08:00 ] 139.162.111.98 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2018-01-02T03:57:35+08:00 ] 164.52.6.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-01-02T06:11:36+08:00 ] 209.126.136.4 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-01-02T08:03:35+08:00 ] 116.62.176.205 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2018-01-02T16:03:31+08:00 ] 114.215.45.79 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2018-01-02T18:56:25+08:00 ] 140.205.225.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2018-01-02T19:09:22+08:00 ] 140.205.225.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-01-02T19:45:49+08:00 ] 140.205.225.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-01-02T20:17:35+08:00 ] 140.205.225.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2018-01-02T20:17:44+08:00 ] 140.205.225.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-01-02T20:17:55+08:00 ] 140.205.225.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `goods` ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `contact` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SELECT `material` FROM `goods`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `connect` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `connect`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `product`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `contact` WHERE ( Id ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `seo` WHERE ( Id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+

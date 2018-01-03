@@ -78,7 +78,7 @@
 
                     if(t1!="" && t2!="" && t3!=""){
 
-                    document.getElementById("copy").value =(( parseInt(t1) - parseInt(t2)) * parseInt(t2)*0.02466*parseInt(t3)).toFixed(2);
+                    document.getElementById("copy").value =( parseInt(t1) - parseInt(t2)) * parseInt(t2)*0.02466*parseInt(t3);
                     }
                     else {document.getElementById("copy").value = "";}
                     }

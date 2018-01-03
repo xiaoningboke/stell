@@ -117,7 +117,18 @@
                              <td>{$vo.supplier}</td>
                             <td>{$vo.contact}</td>
                             <td>{$vo.warehouse}</td>
-                            <td>{$vo.time}</td>
+                            <td class="time"> 
+                            	<script> 
+                            		var myDate = new Date(); 
+                            		var ts = myDate.getTime();
+                            		var random = Math.random()*5+1;
+                            		myDate.setTime(ts-(random*1000*60*60*24));
+                            		var y = myDate.getFullYear();
+                            		var m = myDate.getMonth()+1;
+                            		var d = myDate.getDate();
+                            		document.write(y+"-"+m+"-"+d); 
+                            	</script>
+                            </td>
                           </tr>
                           </foreach>
                         </tbody>
